@@ -1,0 +1,74 @@
+name: Generate svitsvitla import.xml
+
+on:
+  schedule:
+    # Щодоби о 07:00 UTC = 10:00 за Києвом (на годину пізніше warehouse-sync,
+    # щоб встигли оновитися ARTLED ціни які ми використовуємо як донор)
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+    inputs:
+      inc_only:
+        description: "Тільки оновлення (без нових товарів)"
+        default: "false"
+        type: choice
+        options: ["false", "true"]
+      no_scrape_prolum:
+        description: "Не скрейпити дроп-ціни Prolum"
+        default: "true"
+        type: choice
+        options: ["false", "true"]
+
+permissions:
+  contents: write   # потрібно для коміту import.xml назад у репо
+
+concurrency:
+  group: svitsvitla-sync
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with: { python-version: "3.12" }
+
+      - run: pip install -r requirements.txt
+
+      - name: Decode SA JSON (for KLUS Sheet)
+        run: |
+          if [ -n "${{ secrets.GOOGLE_SA_JSON_B64 }}" ]; then
+            echo "${{ secrets.GOOGLE_SA_JSON_B64 }}" | base64 -d > /tmp/sa.json
+            python3 -c "import json; json.load(open('/tmp/sa.json')); print('SA OK')"
+          else
+            echo "GOOGLE_SA_JSON_B64 not set — KLUS буде пропущений"
+          fi
+
+      - name: Generate import.xml
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/sa.json
+          MODERNLIGHT_XLSX_URL: ${{ secrets.MODERNLIGHT_XLSX_URL }}
+          ARTLED_XML_URL: ${{ secrets.ARTLED_XML_URL }}
+          PROLUM_YML_URL: ${{ secrets.PROLUM_YML_URL }}
+          PROLUM_COOKIE: ${{ secrets.PROLUM_COOKIE }}
+          SVITSVITLA_BASELINE_URL: ${{ secrets.SVITSVITLA_BASELINE_URL }}
+          USD_RATE: ${{ secrets.USD_RATE }}
+        run: |
+          ARGS="--out ./import.xml"
+          if [ "${{ github.event.inputs.inc_only }}" = "true" ]; then ARGS="$ARGS --inc-only"; fi
+          if [ "${{ github.event.inputs.no_scrape_prolum }}" = "true" ]; then ARGS="$ARGS --no-scrape-prolum"; fi
+          python3 generate_import.py $ARGS
+
+      - name: Commit import.xml back to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add import.xml
+          if git diff --staged --quiet; then
+            echo "No changes to import.xml"
+          else
+            git commit -m "chore: regenerate import.xml ($(date -u +%Y-%m-%d))"
+            git push
+          fi

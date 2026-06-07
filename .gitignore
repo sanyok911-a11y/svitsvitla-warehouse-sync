@@ -1,0 +1,8 @@
+*.json
+!package.json
+__pycache__/
+*.pyc
+.env
+.DS_Store
+*.xlsx
+# не ігноруємо згенерований import.xml — це й є артефакт що ми пушимо
