@@ -65,13 +65,15 @@ def parse_xlsx(path):
 
         unit = _safe(row, 19)
         unit = str(unit).strip() if unit else None
-        title = _safe(row, 5)
-        section = _safe(row, 8)         # "Раздел" — для маппінгу категорії у svitsvitla
-        photo = _safe(row, 14)          # "Фото" — основне зображення
-        gallery = _safe(row, 15)        # "Галерея" — додаткові
-        description = _safe(row, 23)    # "Описание товара (UA)"
-        url = _safe(row, 17)            # "Ссылка" на сторінку постачальника
-        vendor = _safe(row, 7)          # "Бренд" — для тегу <vendor>
+        title = _safe(row, 5)            # "Название (UA)" — основна назва
+        title_ru = _safe(row, 6)         # "Название (RU)"
+        section = _safe(row, 8)          # "Раздел" — для маппінгу категорії у svitsvitla
+        photo = _safe(row, 14)           # "Фото" — основне зображення
+        gallery = _safe(row, 15)         # "Галерея" — додаткові
+        description = _safe(row, 23)     # "Описание товара (UA)"
+        description_ru = _safe(row, 24)  # "Описание товара (RU)"
+        url = _safe(row, 17)             # "Ссылка" на сторінку постачальника
+        vendor = _safe(row, 7)           # "Бренд" — для тегу <vendor>
 
         pictures = []
         # Modernlight кодує декілька URL в одній комірці через `; ` або `,`,
@@ -89,9 +91,11 @@ def parse_xlsx(path):
             "sku": sku,
             "sku_disp": sku_disp,
             "title": str(title).strip() if title else None,
+            "title_ru": str(title_ru).strip() if title_ru else None,
             "section": str(section).strip() if section else None,
             "vendor": str(vendor).strip() if vendor else None,
             "description": str(description).strip() if description else None,
+            "description_ru": str(description_ru).strip() if description_ru else None,
             "pictures": pictures,
             "url": str(url).strip() if url else None,
             "cost": round(cost, 2) if cost else 0.0,

@@ -24,7 +24,7 @@ from xml.sax.saxutils import escape
 
 import yaml
 
-from sources import artled, klus, modernlight, prolum, svitsvitla
+from sources import artled, artled_prom, klus, modernlight, prolum, svitsvitla
 
 
 def load_mapping(path="category_mapping.yaml"):
@@ -50,10 +50,18 @@ def main():
     svit_by_sku = {o["sku"]: o for o in svit_offers}
     print(f"  {len(svit_offers)} існуючих товарів у svitsvitla")
 
-    print("[2/5] Fetching ARTLED XML (донор описів)…", flush=True)
+    print("[2/5] Fetching ARTLED XML (донор UA)…", flush=True)
     artled_items = artled.load()
     artled_by_sku = {it["sku"]: it for it in artled_items}
-    print(f"  {len(artled_items)} ARTLED товарів (для копіювання описів/фото)")
+    print(f"  {len(artled_items)} ARTLED UA")
+
+    print("[2b/5] Fetching ARTLED Prom XML (донор RU+UA)…", flush=True)
+    try:
+        artled_prom_by_sku = artled_prom.load()
+        print(f"  {len(artled_prom_by_sku)} ARTLED Prom (двомовний)")
+    except Exception as e:
+        print(f"  ⚠️ Prom-донор пропускаємо: {e}")
+        artled_prom_by_sku = {}
 
     print("[3/5] Fetching Modernlight XLSX…", flush=True)
     ml_items = modernlight.load()
@@ -90,13 +98,15 @@ def main():
         all_supplier[sku] = {
             "supplier": "Modernlight",
             "sku": sku, "sku_disp": it.get("sku_disp"),
-            "name": it.get("title"),
+            "name_ua": it.get("title"),
+            "name_ru": it.get("title_ru"),
             "vendor": it.get("vendor"),
             "price": apply_markup(it["price"], it.get("vendor")),
             "available": "true" if it["available"] > 0 else "",
             "category_id": cat,
             "section": section,
-            "description": it.get("description"),
+            "description_ua": it.get("description"),
+            "description_ru": it.get("description_ru"),
             "pictures": it.get("pictures") or [],
             "url": it.get("url"),
         }
@@ -105,12 +115,12 @@ def main():
         sku = it["sku"]
         all_supplier[sku] = {
             "supplier": "KLUS",
-            "sku": sku, "name": it.get("title"),
+            "sku": sku, "name_ua": it.get("title"), "name_ru": None,
             "vendor": "KLUS",
             "price": apply_markup(it["price"], "KLUS"),
             "available": "true" if it["available"] > 0 else "",
             "category_id": mapping["klus"].get("default"),
-            "description": None,
+            "description_ua": None, "description_ru": None,
             "pictures": [],
             "url": None,
         }
@@ -120,12 +130,12 @@ def main():
         cat = mapping["prolum"].get(it.get("category_id"))
         all_supplier[sku] = {
             "supplier": "Prolum",
-            "sku": sku, "name": it.get("name"),
+            "sku": sku, "name_ua": it.get("name"), "name_ru": None,
             "vendor": it.get("vendor"),
             "price": apply_markup(it["price"], it.get("vendor")),
             "available": "true" if it["available"] > 0 else "",
             "category_id": cat,
-            "description": it.get("description"),
+            "description_ua": it.get("description"), "description_ru": None,
             "pictures": it.get("pictures") or [],
             "url": it.get("url"),
         }
@@ -159,11 +169,11 @@ def main():
     print(f"  Skipped no-cat:   {skipped_no_cat}")
 
     # Записуємо YML
-    write_yml(args.out, svit_cats, updates, news, artled_by_sku)
+    write_yml(args.out, svit_cats, updates, news, artled_by_sku, artled_prom_by_sku)
     print(f"\n✅ Saved → {args.out}")
 
 
-def write_yml(out_path, svit_cats, updates, news, artled_by_sku):
+def write_yml(out_path, svit_cats, updates, news, artled_by_sku, artled_prom_by_sku):
     """Згенерувати Horoshop YML."""
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<!DOCTYPE yml_catalog SYSTEM "shops.dtd">',
@@ -191,15 +201,23 @@ def write_yml(out_path, svit_cats, updates, news, artled_by_sku):
         lines.append(f'    <vendorCode>{escape(u["sku"])}</vendorCode>')
         lines.append('   </offer>')
 
-    # NEWs — повний <offer>
+    # NEWs — повний <offer> з обома мовами.
+    # Пріоритет джерел: ARTLED Prom (UA+RU пари) → ARTLED UA → постачальник (ML має RU, KLUS/Prolum — UA only).
     for n in news:
+        prom = artled_prom_by_sku.get(n["sku"]) or {}
         donor = artled_by_sku.get(n["sku"]) or {}
-        # Пріоритет: ARTLED donor → supplier-fields
-        name = donor.get("name") or n.get("name") or n["sku"]
-        url = donor.get("url") or n.get("url") or ""
-        description = donor.get("description") or n.get("description") or ""
-        pictures = donor.get("pictures") or n.get("pictures") or []
-        vendor = donor.get("vendor") or n.get("vendor") or ""
+
+        # UA — пріоритет: prom_ua → ARTLED-name → supplier name_ua
+        name_ua = prom.get("name_ua") or donor.get("name") or n.get("name_ua") or n["sku"]
+        # RU — пріоритет: prom_ru → supplier name_ru (ML має) → fallback на UA якщо нічого
+        name_ru = prom.get("name_ru") or n.get("name_ru") or name_ua
+
+        desc_ua = prom.get("description_ua") or donor.get("description") or n.get("description_ua") or ""
+        desc_ru = prom.get("description_ru") or n.get("description_ru") or desc_ua
+
+        url = donor.get("url") or n.get("url") or prom.get("url") or ""
+        pictures = (donor.get("pictures") or n.get("pictures") or prom.get("pictures") or [])
+        vendor = donor.get("vendor") or n.get("vendor") or prom.get("vendor") or ""
 
         lines.append(f'   <offer available="{n["available"]}">')
         if url:
@@ -214,14 +232,13 @@ def write_yml(out_path, svit_cats, updates, news, artled_by_sku):
         lines.append(f'    <vendorCode>{escape(n["sku"])}</vendorCode>')
         if vendor:
             lines.append(f'    <vendor>{escape(vendor)}</vendor>')
-        # Назва і опис — пишемо в ОБИДВА теги (UA в обох), щоб незалежно від
-        # того яка основна мова магазину svitsvitla, дані пішли куди треба.
-        # Horoshop YML: <name> = основна мова, <name_ua> = українська (додатково).
-        lines.append(f'    <name><![CDATA[{name}]]></name>')
-        lines.append(f'    <name_ua><![CDATA[{name}]]></name_ua>')
-        if description:
-            lines.append(f'    <description><![CDATA[{description}]]></description>')
-            lines.append(f'    <description_ua><![CDATA[{description}]]></description_ua>')
+        # <name> = RU (основна мова Horoshop YML), <name_ua> = UA додаткова
+        lines.append(f'    <name><![CDATA[{name_ru}]]></name>')
+        lines.append(f'    <name_ua><![CDATA[{name_ua}]]></name_ua>')
+        if desc_ru:
+            lines.append(f'    <description><![CDATA[{desc_ru}]]></description>')
+        if desc_ua:
+            lines.append(f'    <description_ua><![CDATA[{desc_ua}]]></description_ua>')
         lines.append('   </offer>')
 
     lines.append('  </offers>')
