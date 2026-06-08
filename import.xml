@@ -25,6 +25,7 @@
    <category id="1334" parentId="1333">Аксесуари для підключення світлодіодної стрічки</category>
    <category id="1335" parentId="1333">Неоновий розсіювач</category>
    <category id="1336" parentId="1333">Аксесуари для підключення світлодіодного неону</category>
+   <category id="1350">Світильники LED</category>
   </categories>
   <offers>
    <offer available="true">
@@ -5742,7 +5743,7 @@
     <currencyId>UAH</currencyId>
     <vendorCode>2745</vendorCode>
    </offer>
-   <offer available="true">
+   <offer available="">
     <price>2131.2</price>
     <currencyId>UAH</currencyId>
     <vendorCode>2746</vendorCode>
@@ -6832,7 +6833,7 @@
     <currencyId>UAH</currencyId>
     <vendorCode>1826</vendorCode>
    </offer>
-   <offer available="true">
+   <offer available="">
     <price>532.8</price>
     <currencyId>UAH</currencyId>
     <vendorCode>1827</vendorCode>
