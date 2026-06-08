@@ -214,9 +214,14 @@ def write_yml(out_path, svit_cats, updates, news, artled_by_sku):
         lines.append(f'    <vendorCode>{escape(n["sku"])}</vendorCode>')
         if vendor:
             lines.append(f'    <vendor>{escape(vendor)}</vendor>')
+        # Назва і опис — пишемо в ОБИДВА теги (UA в обох), щоб незалежно від
+        # того яка основна мова магазину svitsvitla, дані пішли куди треба.
+        # Horoshop YML: <name> = основна мова, <name_ua> = українська (додатково).
         lines.append(f'    <name><![CDATA[{name}]]></name>')
+        lines.append(f'    <name_ua><![CDATA[{name}]]></name_ua>')
         if description:
             lines.append(f'    <description><![CDATA[{description}]]></description>')
+            lines.append(f'    <description_ua><![CDATA[{description}]]></description_ua>')
         lines.append('   </offer>')
 
     lines.append('  </offers>')
