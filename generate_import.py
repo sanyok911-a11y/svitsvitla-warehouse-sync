@@ -43,6 +43,7 @@ def main():
     mapping = load_mapping()
     lights_cat = mapping.get("lights_category_id")
     fallback_cat = mapping.get("fallback_category_id")
+    brand_markup = mapping.get("brand_markup") or {}
 
     print("[1/5] Fetching svitsvitla baseline…", flush=True)
     svit_offers, svit_cats = svitsvitla.load()
@@ -70,6 +71,14 @@ def main():
     prolum_items = prolum.load(scrape=not args.no_scrape_prolum)
     print(f"  {len(prolum_items)} Prolum")
 
+    def apply_markup(price, vendor):
+        if not price or not vendor:
+            return price
+        add = brand_markup.get(vendor)
+        if add:
+            return round(float(price) + float(add), 2)
+        return price
+
     # Збираємо всі товари постачальників у єдиний dict sku → record
     all_supplier = {}  # sku → {supplier, price, available, category_from_supplier,
                        #         name, description, pictures, raw_supplier_data}
@@ -83,7 +92,7 @@ def main():
             "sku": sku, "sku_disp": it.get("sku_disp"),
             "name": it.get("title"),
             "vendor": it.get("vendor"),
-            "price": it["price"],
+            "price": apply_markup(it["price"], it.get("vendor")),
             "available": "true" if it["available"] > 0 else "",
             "category_id": cat,
             "section": section,
@@ -98,7 +107,7 @@ def main():
             "supplier": "KLUS",
             "sku": sku, "name": it.get("title"),
             "vendor": "KLUS",
-            "price": it["price"],
+            "price": apply_markup(it["price"], "KLUS"),
             "available": "true" if it["available"] > 0 else "",
             "category_id": mapping["klus"].get("default"),
             "description": None,
@@ -113,7 +122,7 @@ def main():
             "supplier": "Prolum",
             "sku": sku, "name": it.get("name"),
             "vendor": it.get("vendor"),
-            "price": it["price"],
+            "price": apply_markup(it["price"], it.get("vendor")),
             "available": "true" if it["available"] > 0 else "",
             "category_id": cat,
             "description": it.get("description"),
@@ -121,16 +130,16 @@ def main():
             "url": it.get("url"),
         }
 
-    # Розділяємо на UPDATE (vendorCode існує у svitsvitla) і NEW (нема)
+    # Розділяємо на UPDATE (vendorCode існує у svitsvitla) і NEW (нема).
+    # Матчинг у Horoshop — ТІЛЬКИ по vendorCode (= наш CRM sku, унікальний).
+    # offer.id/group_id у вихідному XML НЕ передаємо, щоб не плутати Horoshop
+    # з його internal ID.
     updates = []
     news = []
     skipped_no_cat = 0
     for sku, sup in all_supplier.items():
         if sku in svit_by_sku:
-            existing = svit_by_sku[sku]
             updates.append({
-                "offer_id": existing["offer_id"],
-                "group_id": existing["group_id"],
                 "sku": sku,
                 "price": sup["price"],
                 "available": sup["available"],
@@ -172,9 +181,10 @@ def write_yml(out_path, svit_cats, updates, news, artled_by_sku):
     lines.append('  </categories>')
     lines.append('  <offers>')
 
-    # UPDATEs — мінімальний <offer> (тільки price + available)
+    # UPDATEs — мінімальний <offer> (тільки price + available), без id/group_id
+    # → Horoshop матчить по vendorCode як ключу.
     for u in updates:
-        lines.append(f'   <offer id="{u["offer_id"]}" group_id="{u["group_id"]}" available="{u["available"]}">')
+        lines.append(f'   <offer available="{u["available"]}">')
         if u["price"] is not None:
             lines.append(f'    <price>{u["price"]}</price>')
             lines.append(f'    <currencyId>UAH</currencyId>')
