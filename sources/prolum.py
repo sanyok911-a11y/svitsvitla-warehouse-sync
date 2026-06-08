@@ -119,6 +119,10 @@ def load(scrape=True, max_scrape=None):
             "available": it["available"],
             "supplier": "Prolum",
             "scraped_drop": drop,
+            "category_id": it.get("category_id"),
+            "description": it.get("description"),
+            "pictures": it.get("pictures", []),
+            "url": it.get("url"),
         })
         if max_scrape and len([x for x in items if x["scraped_drop"] is not None]) >= max_scrape:
             scrape = False  # stop scraping further

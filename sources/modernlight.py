@@ -74,12 +74,15 @@ def parse_xlsx(path):
         vendor = _safe(row, 7)          # "Бренд" — для тегу <vendor>
 
         pictures = []
-        if photo:
-            pictures.append(str(photo).strip())
-        if gallery:
-            for p in str(gallery).split(","):
+        # Modernlight кодує декілька URL в одній комірці через `; ` або `,`,
+        # перенос рядка теж буває.
+        for raw in (photo, gallery):
+            if not raw:
+                continue
+            import re as _re
+            for p in _re.split(r"[;,\s]+", str(raw)):
                 p = p.strip()
-                if p and p not in pictures:
+                if p.startswith("http") and p not in pictures:
                     pictures.append(p)
 
         items.append({

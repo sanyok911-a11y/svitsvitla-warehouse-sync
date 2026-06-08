@@ -76,16 +76,20 @@ def main():
 
     for it in ml_items:
         sku = it["sku"]
-        section = it.get("section") or ""  # TODO: modernlight.load не повертає section?
+        section = it.get("section") or ""
         cat = mapping["modernlight"].get(section)
         all_supplier[sku] = {
             "supplier": "Modernlight",
             "sku": sku, "sku_disp": it.get("sku_disp"),
             "name": it.get("title"),
+            "vendor": it.get("vendor"),
             "price": it["price"],
             "available": "true" if it["available"] > 0 else "",
             "category_id": cat,
             "section": section,
+            "description": it.get("description"),
+            "pictures": it.get("pictures") or [],
+            "url": it.get("url"),
         }
 
     for it in klus_items:
@@ -93,9 +97,13 @@ def main():
         all_supplier[sku] = {
             "supplier": "KLUS",
             "sku": sku, "name": it.get("title"),
+            "vendor": "KLUS",
             "price": it["price"],
             "available": "true" if it["available"] > 0 else "",
             "category_id": mapping["klus"].get("default"),
+            "description": None,
+            "pictures": [],
+            "url": None,
         }
 
     for it in prolum_items:
@@ -104,9 +112,13 @@ def main():
         all_supplier[sku] = {
             "supplier": "Prolum",
             "sku": sku, "name": it.get("name"),
+            "vendor": it.get("vendor"),
             "price": it["price"],
             "available": "true" if it["available"] > 0 else "",
             "category_id": cat,
+            "description": it.get("description"),
+            "pictures": it.get("pictures") or [],
+            "url": it.get("url"),
         }
 
     # Розділяємо на UPDATE (vendorCode існує у svitsvitla) і NEW (нема)
@@ -174,7 +186,11 @@ def write_yml(out_path, svit_cats, updates, news, artled_by_sku):
         donor = artled_by_sku.get(n["sku"]) or {}
         # Пріоритет: ARTLED donor → supplier-fields
         name = donor.get("name") or n.get("name") or n["sku"]
-        url = donor.get("url") or ""
+        url = donor.get("url") or n.get("url") or ""
+        description = donor.get("description") or n.get("description") or ""
+        pictures = donor.get("pictures") or n.get("pictures") or []
+        vendor = donor.get("vendor") or n.get("vendor") or ""
+
         lines.append(f'   <offer available="{n["available"]}">')
         if url:
             lines.append(f'    <url>{escape(url)}</url>')
@@ -183,9 +199,14 @@ def write_yml(out_path, svit_cats, updates, news, artled_by_sku):
             lines.append(f'    <currencyId>UAH</currencyId>')
         if n["category_id"]:
             lines.append(f'    <categoryId>{n["category_id"]}</categoryId>')
-        # TODO: pictures — поки що тільки ARTLED, треба додати з ML/Prolum
+        for pic in pictures:
+            lines.append(f'    <picture>{escape(pic)}</picture>')
         lines.append(f'    <vendorCode>{escape(n["sku"])}</vendorCode>')
+        if vendor:
+            lines.append(f'    <vendor>{escape(vendor)}</vendor>')
         lines.append(f'    <name><![CDATA[{name}]]></name>')
+        if description:
+            lines.append(f'    <description><![CDATA[{description}]]></description>')
         lines.append('   </offer>')
 
     lines.append('  </offers>')
