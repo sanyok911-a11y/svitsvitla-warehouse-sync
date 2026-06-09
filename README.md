@@ -10,17 +10,26 @@
 
 1. GHA cron щодоби о 10:00 Київ запускає `generate_import.py`
 2. Скрипт тягне 4 джерела + baseline svitsvitla XML
-3. Генерує `import.xml` у форматі Horoshop YML
-4. Комітить файл назад у репо
-5. **Власник заходить у svitsvitla admin → Імпорт товарів → вставляє URL → "Імпортувати"**
+3. Генерує **два** файли у форматі Horoshop YML:
+   - `update.xml` — оновлення price/наявності існуючих товарів
+   - `new.xml` — нові товари (повний offer, 2 мови)
+4. Комітить обидва файли назад у репо
+5. **Власник у svitsvitla admin → Імпорт товарів → вставляє URL → "Імпортувати"** (двома окремими імпортами)
 
-URL для імпорту: `https://raw.githubusercontent.com/sanyok911-a11y/svitsvitla-warehouse-sync/main/import.xml`
+URL для імпорту:
+- Оновлення: `https://raw.githubusercontent.com/sanyok911-a11y/svitsvitla-warehouse-sync/main/update.xml`
+- Нові: `https://raw.githubusercontent.com/sanyok911-a11y/svitsvitla-warehouse-sync/main/new.xml`
+
+**Чому два файли:** Horoshop на кроці імпорту вимагає співпідставлення полів. Якщо у фіді змішані мінімальні offer'и (оновлення) і повні (нові), мапінг плутається. Окремі однорідні файли → стабільне співпідставлення:
+- `update.xml`: мапиш лише vendorCode + ціна + наявність
+- `new.xml`: повний мапінг з категоріями та двома мовами
 
 ## Логіка генератора
 
-- **Існуючі товари** (vendorCode матчиться у svitsvitla) → мінімальний `<offer>` тільки з оновленням `price` + `available`
-- **Нові товари** (є у постачальника, нема у svitsvitla) → повний `<offer>`:
+- **Існуючі товари** (vendorCode матчиться у svitsvitla) → `update.xml`: мінімальний `<offer>` тільки з оновленням `price` + `available`
+- **Нові товари** (є у постачальника, нема у svitsvitla) → `new.xml`: повний `<offer>`:
   - Опис/фото з ARTLED feed якщо є той самий sku (КЛЮС-нові часто є на ARTLED)
+  - Дві мови: `<name>`/`<description>` = UA (основна), `<name_ru>`/`<description_ru>` = RU (друга, лише за наявності перекладу)
   - Категорія за `category_mapping.yaml`
   - Якщо немає маппінгу → fallback категорія "🆕 Нові з імпорту без маппінгу"
 
@@ -44,5 +53,5 @@ URL для імпорту: `https://raw.githubusercontent.com/sanyok911-a11y/svi
 
 ```bash
 GOOGLE_APPLICATION_CREDENTIALS=~/artled-dashboard-sa.json \
-  python3 generate_import.py --out ./import.xml --no-scrape-prolum
+  python3 generate_import.py --out-update ./update.xml --out-new ./new.xml --no-scrape-prolum
 ```

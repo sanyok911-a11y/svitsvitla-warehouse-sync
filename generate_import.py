@@ -11,10 +11,14 @@
       * категорія — з category_mapping.yaml
   - При невідомій категорії → fallback або pass
 
+Вихід — ДВА файли (Horoshop імпортує їх окремими кроками з різним мапінгом):
+    update.xml — оновлення price/наявності існуючих (мінімальний offer)
+    new.xml    — нові товари (повний offer + категорії, 2 мови)
+
 CLI:
-    python3 generate_import.py                # → ./import.xml
-    python3 generate_import.py --out PATH
-    python3 generate_import.py --inc-only     # ТІЛЬКИ оновлення (без нових)
+    python3 generate_import.py                       # → ./update.xml + ./new.xml
+    python3 generate_import.py --out-update U --out-new N
+    python3 generate_import.py --inc-only            # ТІЛЬКИ update.xml (без нових)
 """
 import argparse
 import json
@@ -34,7 +38,10 @@ def load_mapping(path="category_mapping.yaml"):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--out", default="./import.xml")
+    ap.add_argument("--out-update", default="./update.xml",
+                    help="Файл оновлення цін/наявності існуючих товарів")
+    ap.add_argument("--out-new", default="./new.xml",
+                    help="Файл нових товарів (повний offer)")
     ap.add_argument("--inc-only", action="store_true",
                     help="Тільки оновлення цін/наявності існуючих (без нових)")
     ap.add_argument("--no-scrape-prolum", action="store_true")
@@ -168,19 +175,54 @@ def main():
     print(f"  NEW (додати):     {len(news)}")
     print(f"  Skipped no-cat:   {skipped_no_cat}")
 
-    # Записуємо YML
-    write_yml(args.out, svit_cats, updates, news, artled_by_sku, artled_prom_by_sku)
-    print(f"\n✅ Saved → {args.out}")
+    # Записуємо ДВА окремі YML — Horoshop імпортує їх різними кроками
+    # з різним мапінгом полів (update = price/наявність, new = повний товар).
+    write_yml_update(args.out_update, updates)
+    print(f"\n✅ Update XML → {args.out_update}  ({len(updates)} offers)")
+
+    if not args.inc_only:
+        write_yml_new(args.out_new, svit_cats, news, artled_by_sku, artled_prom_by_sku)
+        print(f"✅ New XML    → {args.out_new}  ({len(news)} offers)")
 
 
-def write_yml(out_path, svit_cats, updates, news, artled_by_sku, artled_prom_by_sku):
-    """Згенерувати Horoshop YML."""
-    lines = ['<?xml version="1.0" encoding="UTF-8"?>',
-             '<!DOCTYPE yml_catalog SYSTEM "shops.dtd">',
-             '<yml_catalog date="now">',
-             ' <shop>',
-             '  <currencies><currency id="UAH" rate="1"/></currencies>',
-             '  <categories>']
+_HEAD = ['<?xml version="1.0" encoding="UTF-8"?>',
+         '<!DOCTYPE yml_catalog SYSTEM "shops.dtd">',
+         '<yml_catalog date="now">',
+         ' <shop>',
+         '  <currencies><currency id="UAH" rate="1"/></currencies>']
+_FOOT = ['  </offers>', ' </shop>', '</yml_catalog>']
+
+
+def write_yml_update(out_path, updates):
+    """update.xml — ТІЛЬКИ оновлення price/наявності існуючих товарів.
+
+    Однорідний мінімальний <offer> (vendorCode + price + available), без
+    категорій/назв/описів. Horoshop матчить по vendorCode як ключу, тому
+    на кроці імпорту треба зіставити лише 3 поля — мапінг тривіальний.
+    """
+    lines = list(_HEAD)
+    lines.append('  <offers>')
+    for u in updates:
+        lines.append(f'   <offer available="{u["available"]}">')
+        if u["price"] is not None:
+            lines.append(f'    <price>{u["price"]}</price>')
+            lines.append(f'    <currencyId>UAH</currencyId>')
+        lines.append(f'    <vendorCode>{escape(u["sku"])}</vendorCode>')
+        lines.append('   </offer>')
+    lines.extend(_FOOT)
+    with open(out_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+
+
+def write_yml_new(out_path, svit_cats, news, artled_by_sku, artled_prom_by_sku):
+    """new.xml — ТІЛЬКИ нові товари: повний <offer> + блок категорій.
+
+    Дві мови у канонічному форматі Horoshop:
+      <name>     / <description>     — основна мова (UA, без суфікса, як у експорті svitsvitla)
+      <name_ru>  / <description_ru>  — друга мова (RU, суфікс коду мови)
+    """
+    lines = list(_HEAD)
+    lines.append('  <categories>')
     for cid, info in svit_cats.items():
         name = escape(info.get("name") or "")
         parent = info.get("parent_id")
@@ -191,29 +233,19 @@ def write_yml(out_path, svit_cats, updates, news, artled_by_sku, artled_prom_by_
     lines.append('  </categories>')
     lines.append('  <offers>')
 
-    # UPDATEs — мінімальний <offer> (тільки price + available), без id/group_id
-    # → Horoshop матчить по vendorCode як ключу.
-    for u in updates:
-        lines.append(f'   <offer available="{u["available"]}">')
-        if u["price"] is not None:
-            lines.append(f'    <price>{u["price"]}</price>')
-            lines.append(f'    <currencyId>UAH</currencyId>')
-        lines.append(f'    <vendorCode>{escape(u["sku"])}</vendorCode>')
-        lines.append('   </offer>')
-
-    # NEWs — повний <offer> з обома мовами.
-    # Пріоритет джерел: ARTLED Prom (UA+RU пари) → ARTLED UA → постачальник (ML має RU, KLUS/Prolum — UA only).
+    # Пріоритет джерел: ARTLED Prom (UA+RU пари) → ARTLED UA → постачальник
+    # (ML має RU, KLUS/Prolum — UA only).
     for n in news:
         prom = artled_prom_by_sku.get(n["sku"]) or {}
         donor = artled_by_sku.get(n["sku"]) or {}
 
-        # UA — пріоритет: prom_ua → ARTLED-name → supplier name_ua
+        # UA — основна: prom_ua → ARTLED-name → supplier name_ua
         name_ua = prom.get("name_ua") or donor.get("name") or n.get("name_ua") or n["sku"]
-        # RU — пріоритет: prom_ru → supplier name_ru (ML має) → fallback на UA якщо нічого
-        name_ru = prom.get("name_ru") or n.get("name_ru") or name_ua
+        # RU — друга: prom_ru → supplier name_ru (ML має); інакше не пишемо тег
+        name_ru = prom.get("name_ru") or n.get("name_ru")
 
         desc_ua = prom.get("description_ua") or donor.get("description") or n.get("description_ua") or ""
-        desc_ru = prom.get("description_ru") or n.get("description_ru") or desc_ua
+        desc_ru = prom.get("description_ru") or n.get("description_ru")
 
         url = donor.get("url") or n.get("url") or prom.get("url") or ""
         pictures = (donor.get("pictures") or n.get("pictures") or prom.get("pictures") or [])
@@ -232,19 +264,17 @@ def write_yml(out_path, svit_cats, updates, news, artled_by_sku, artled_prom_by_
         lines.append(f'    <vendorCode>{escape(n["sku"])}</vendorCode>')
         if vendor:
             lines.append(f'    <vendor>{escape(vendor)}</vendor>')
-        # <name> = RU (основна мова Horoshop YML), <name_ua> = UA додаткова
-        lines.append(f'    <name><![CDATA[{name_ru}]]></name>')
-        lines.append(f'    <name_ua><![CDATA[{name_ua}]]></name_ua>')
-        if desc_ru:
-            lines.append(f'    <description><![CDATA[{desc_ru}]]></description>')
+        # <name> = UA (основна), <name_ru> = RU (друга) — лише якщо є переклад
+        lines.append(f'    <name><![CDATA[{name_ua}]]></name>')
+        if name_ru and name_ru != name_ua:
+            lines.append(f'    <name_ru><![CDATA[{name_ru}]]></name_ru>')
         if desc_ua:
-            lines.append(f'    <description_ua><![CDATA[{desc_ua}]]></description_ua>')
+            lines.append(f'    <description><![CDATA[{desc_ua}]]></description>')
+        if desc_ru and desc_ru != desc_ua:
+            lines.append(f'    <description_ru><![CDATA[{desc_ru}]]></description_ru>')
         lines.append('   </offer>')
 
-    lines.append('  </offers>')
-    lines.append(' </shop>')
-    lines.append('</yml_catalog>')
-
+    lines.extend(_FOOT)
     with open(out_path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
 

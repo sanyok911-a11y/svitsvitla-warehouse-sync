@@ -46,7 +46,7 @@ jobs:
             echo "GOOGLE_SA_JSON_B64 not set — KLUS буде пропущений"
           fi
 
-      - name: Generate import.xml
+      - name: Generate update.xml + new.xml
         env:
           GOOGLE_APPLICATION_CREDENTIALS: /tmp/sa.json
           MODERNLIGHT_XLSX_URL: ${{ secrets.MODERNLIGHT_XLSX_URL }}
@@ -56,19 +56,19 @@ jobs:
           SVITSVITLA_BASELINE_URL: ${{ secrets.SVITSVITLA_BASELINE_URL }}
           USD_RATE: ${{ secrets.USD_RATE }}
         run: |
-          ARGS="--out ./import.xml"
+          ARGS="--out-update ./update.xml --out-new ./new.xml"
           if [ "${{ github.event.inputs.inc_only }}" = "true" ]; then ARGS="$ARGS --inc-only"; fi
           if [ "${{ github.event.inputs.no_scrape_prolum }}" = "true" ]; then ARGS="$ARGS --no-scrape-prolum"; fi
           python3 generate_import.py $ARGS
 
-      - name: Commit import.xml back to repo
+      - name: Commit generated XML back to repo
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add import.xml
+          git add update.xml new.xml
           if git diff --staged --quiet; then
-            echo "No changes to import.xml"
+            echo "No changes to update.xml / new.xml"
           else
-            git commit -m "chore: regenerate import.xml ($(date -u +%Y-%m-%d))"
+            git commit -m "chore: regenerate update.xml + new.xml ($(date -u +%Y-%m-%d))"
             git push
           fi
