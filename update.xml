@@ -3219,7 +3219,7 @@
     <currencyId>UAH</currencyId>
     <vendorCode>0899</vendorCode>
    </offer>
-   <offer available="true">
+   <offer available="">
     <price>120.0</price>
     <currencyId>UAH</currencyId>
     <vendorCode>0898</vendorCode>
