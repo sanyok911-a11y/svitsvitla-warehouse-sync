@@ -53,7 +53,7 @@ def parse_yml(xml_bytes):
             rrp = float(off.findtext("price") or 0) or None
         except ValueError:
             rrp = None
-        av_raw = (off.findtext("available") or "").strip().lower()
+        av_raw = (off.get("available") or "").strip().lower()  # available — атрибут offer, не тег
         pictures = [(p.text or "").strip() for p in off.findall("picture") if p.text]
         items.append({
             "sku": sku,

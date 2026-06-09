@@ -23,6 +23,7 @@ CLI:
 import argparse
 import json
 import os
+import re
 import sys
 from xml.sax.saxutils import escape
 
@@ -165,11 +166,19 @@ def main():
     # напр. трекові світильники з секції 1321 → 1323, компоненти лишаються в 1321.
     recat_rules = mapping.get("recategorize") or []
     n_recat = 0
+
+    def _norm(s):
+        # нормалізуємо різні варіанти апострофа → ' для надійного матчингу
+        return re.sub(r"['’ʼ`´‘]", "'", (s or "")).strip().lower()
+
     for sup in all_supplier.values():
-        nm = (sup.get("name_ua") or "").lower()
+        nm = _norm(sup.get("name_ua"))
         for rule in recat_rules:
-            if sup.get("category_id") == rule.get("from") and \
-               any(k.lower() in nm for k in (rule.get("if_name_contains") or [])):
+            if sup.get("category_id") != rule.get("from"):
+                continue
+            contains = [_norm(k) for k in (rule.get("if_name_contains") or [])]
+            starts = [_norm(k) for k in (rule.get("if_name_startswith") or [])]
+            if any(k in nm for k in contains) or any(nm.startswith(k) for k in starts):
                 sup["category_id"] = rule.get("to")
                 n_recat += 1
                 break
