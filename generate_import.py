@@ -147,6 +147,33 @@ def main():
             "url": it.get("url"),
         }
 
+    # Виключаємо мерч/демо/тех.позиції (category_mapping.yaml → exclude_*).
+    excl_skus = {str(s) for s in (mapping.get("exclude_skus") or [])}
+    excl_pats = [p.lower() for p in (mapping.get("exclude_name_patterns") or [])]
+
+    def is_excluded(sku, sup):
+        if str(sku) in excl_skus:
+            return True
+        nm = (sup.get("name_ua") or "").lower()
+        return any(p in nm for p in excl_pats)
+
+    n_before = len(all_supplier)
+    all_supplier = {s: sup for s, sup in all_supplier.items() if not is_excluded(s, sup)}
+    n_excluded = n_before - len(all_supplier)
+
+    # Уточнення категорії за назвою (category_mapping.yaml → recategorize):
+    # напр. трекові світильники з секції 1321 → 1323, компоненти лишаються в 1321.
+    recat_rules = mapping.get("recategorize") or []
+    n_recat = 0
+    for sup in all_supplier.values():
+        nm = (sup.get("name_ua") or "").lower()
+        for rule in recat_rules:
+            if sup.get("category_id") == rule.get("from") and \
+               any(k.lower() in nm for k in (rule.get("if_name_contains") or [])):
+                sup["category_id"] = rule.get("to")
+                n_recat += 1
+                break
+
     # Розділяємо на UPDATE (vendorCode існує у svitsvitla) і NEW (нема).
     # Матчинг у Horoshop — ТІЛЬКИ по vendorCode (= наш CRM sku, унікальний).
     # offer.id/group_id у вихідному XML НЕ передаємо, щоб не плутати Horoshop
@@ -171,9 +198,11 @@ def main():
             news.append({**sup, "category_id": cat})
 
     print(f"\n=== Plan ===")
-    print(f"  UPDATE (існуючі): {len(updates)}")
-    print(f"  NEW (додати):     {len(news)}")
-    print(f"  Skipped no-cat:   {skipped_no_cat}")
+    print(f"  Excluded (мерч/демо): {n_excluded}")
+    print(f"  Recategorized:        {n_recat}")
+    print(f"  UPDATE (існуючі):     {len(updates)}")
+    print(f"  NEW (додати):         {len(news)}")
+    print(f"  Skipped no-cat:       {skipped_no_cat}")
 
     # Записуємо ДВА окремі YML — Horoshop імпортує їх різними кроками
     # з різним мапінгом полів (update = price/наявність, new = повний товар).
@@ -181,6 +210,11 @@ def main():
     print(f"\n✅ Update XML → {args.out_update}  ({len(updates)} offers)")
 
     if not args.inc_only:
+        # fallback-категорія прихована в svitsvitla → нема в експорті; додаємо
+        # її назву у блок <categories>, щоб фід був самодостатнім.
+        fb_name = mapping.get("fallback_category_name")
+        if fallback_cat and fb_name and fallback_cat not in svit_cats:
+            svit_cats[fallback_cat] = {"name": fb_name, "parent_id": None}
         write_yml_new(args.out_new, svit_cats, news, artled_by_sku, artled_prom_by_sku)
         print(f"✅ New XML    → {args.out_new}  ({len(news)} offers)")
 
