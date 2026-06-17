@@ -1169,7 +1169,7 @@
     <currencyId>UAH</currencyId>
     <vendorCode>2007</vendorCode>
    </offer>
-   <offer available="true">
+   <offer available="">
     <price>133.2</price>
     <currencyId>UAH</currencyId>
     <vendorCode>2008</vendorCode>
@@ -2430,7 +2430,7 @@
     <vendorCode>1012</vendorCode>
    </offer>
    <offer available="true">
-    <price>1554.0</price>
+    <price>1420.8</price>
     <currencyId>UAH</currencyId>
     <vendorCode>0961</vendorCode>
    </offer>
@@ -7734,6 +7734,11 @@
     <currencyId>UAH</currencyId>
     <vendorCode>KLUS_C24214C02</vendorCode>
    </offer>
+   <offer available="">
+    <price>113.0</price>
+    <currencyId>UAH</currencyId>
+    <vendorCode>KLUS_C24310C02</vendorCode>
+   </offer>
    <offer available="true">
     <price>86.0</price>
     <currencyId>UAH</currencyId>
@@ -8084,6 +8089,11 @@
     <currencyId>UAH</currencyId>
     <vendorCode>KLUS_C28224C02TW6,5</vendorCode>
    </offer>
+   <offer available="">
+    <price>112.0</price>
+    <currencyId>UAH</currencyId>
+    <vendorCode>KLUS_C24235N00</vendorCode>
+   </offer>
    <offer available="true">
     <price>55.0</price>
     <currencyId>UAH</currencyId>
@@ -8135,6 +8145,11 @@
     <vendorCode>KLUS_C20100C02</vendorCode>
    </offer>
    <offer available="">
+    <price>146.0</price>
+    <currencyId>UAH</currencyId>
+    <vendorCode>KLUS_C24447N00</vendorCode>
+   </offer>
+   <offer available="">
     <price>190.0</price>
     <currencyId>UAH</currencyId>
     <vendorCode>KLUS_C28072N00</vendorCode>
@@ -8143,6 +8158,11 @@
     <price>175.0</price>
     <currencyId>UAH</currencyId>
     <vendorCode>KLUS_C28075N00</vendorCode>
+   </offer>
+   <offer available="">
+    <price>108.0</price>
+    <currencyId>UAH</currencyId>
+    <vendorCode>KLUS_C28241C10</vendorCode>
    </offer>
    <offer available="">
     <price>166.0</price>
@@ -12515,6 +12535,11 @@
     <vendorCode>501009</vendorCode>
    </offer>
    <offer available="">
+    <price>8.28</price>
+    <currencyId>UAH</currencyId>
+    <vendorCode>501011</vendorCode>
+   </offer>
+   <offer available="">
     <price>1419.74</price>
     <currencyId>UAH</currencyId>
     <vendorCode>221012</vendorCode>
@@ -13038,11 +13063,6 @@
     <price>414.0</price>
     <currencyId>UAH</currencyId>
     <vendorCode>401009</vendorCode>
-   </offer>
-   <offer available="true">
-    <price>8.28</price>
-    <currencyId>UAH</currencyId>
-    <vendorCode>501011</vendorCode>
    </offer>
    <offer available="true">
     <price>176.64</price>
