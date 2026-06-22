@@ -844,7 +844,7 @@
     <currencyId>UAH</currencyId>
     <vendorCode>1463</vendorCode>
    </offer>
-   <offer available="true">
+   <offer available="">
     <price>444.0</price>
     <currencyId>UAH</currencyId>
     <vendorCode>1514</vendorCode>
@@ -2404,7 +2404,7 @@
     <currencyId>UAH</currencyId>
     <vendorCode>1179</vendorCode>
    </offer>
-   <offer available="true">
+   <offer available="">
     <price>1687.2</price>
     <currencyId>UAH</currencyId>
     <vendorCode>0856</vendorCode>
