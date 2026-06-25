@@ -4209,7 +4209,7 @@
     <currencyId>UAH</currencyId>
     <vendorCode>2016</vendorCode>
    </offer>
-   <offer available="true">
+   <offer available="">
     <price>44.4</price>
     <currencyId>UAH</currencyId>
     <vendorCode>2017</vendorCode>
