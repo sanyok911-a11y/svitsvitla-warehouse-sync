@@ -3500,11 +3500,6 @@
     <vendorCode>LP19081_2</vendorCode>
    </offer>
    <offer available="true">
-    <price>1491.84</price>
-    <currencyId>UAH</currencyId>
-    <vendorCode>LW18121_2</vendorCode>
-   </offer>
-   <offer available="true">
     <price>710.4</price>
     <currencyId>UAH</currencyId>
     <vendorCode>LP16161_2</vendorCode>
@@ -3523,36 +3518,6 @@
     <price>13.32</price>
     <currencyId>UAH</currencyId>
     <vendorCode>LP19080</vendorCode>
-   </offer>
-   <offer available="true">
-    <price>133.2</price>
-    <currencyId>UAH</currencyId>
-    <vendorCode>LW18125_2</vendorCode>
-   </offer>
-   <offer available="true">
-    <price>13.32</price>
-    <currencyId>UAH</currencyId>
-    <vendorCode>LW181202</vendorCode>
-   </offer>
-   <offer available="true">
-    <price>33.3</price>
-    <currencyId>UAH</currencyId>
-    <vendorCode>LW18129</vendorCode>
-   </offer>
-   <offer available="true">
-    <price>33.3</price>
-    <currencyId>UAH</currencyId>
-    <vendorCode>LW18128</vendorCode>
-   </offer>
-   <offer available="true">
-    <price>22.2</price>
-    <currencyId>UAH</currencyId>
-    <vendorCode>LW181201</vendorCode>
-   </offer>
-   <offer available="true">
-    <price>22.2</price>
-    <currencyId>UAH</currencyId>
-    <vendorCode>LW18120</vendorCode>
    </offer>
    <offer available="true">
     <price>17.76</price>
@@ -3608,26 +3573,6 @@
     <price>8.0</price>
     <currencyId>UAH</currencyId>
     <vendorCode>1452</vendorCode>
-   </offer>
-   <offer available="">
-    <price>2131.2</price>
-    <currencyId>UAH</currencyId>
-    <vendorCode>LP35671_2</vendorCode>
-   </offer>
-   <offer available="true">
-    <price>44.4</price>
-    <currencyId>UAH</currencyId>
-    <vendorCode>LP35678</vendorCode>
-   </offer>
-   <offer available="">
-    <price>2264.4</price>
-    <currencyId>UAH</currencyId>
-    <vendorCode>LP50701_2</vendorCode>
-   </offer>
-   <offer available="true">
-    <price>48.84</price>
-    <currencyId>UAH</currencyId>
-    <vendorCode>LP50708</vendorCode>
    </offer>
    <offer available="true">
     <price>488.4</price>
@@ -4338,11 +4283,6 @@
     <price>177.6</price>
     <currencyId>UAH</currencyId>
     <vendorCode>607H(LO3030)</vendorCode>
-   </offer>
-   <offer available="true">
-    <price>66.6</price>
-    <currencyId>UAH</currencyId>
-    <vendorCode>S90UA</vendorCode>
    </offer>
    <offer available="true">
     <price>22.2</price>
