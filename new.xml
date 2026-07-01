@@ -2877,7 +2877,7 @@
     <description><![CDATA[<p>Блок живлення ALUMLED <strong>ALMG-PS 300 BK</strong></p>    <ul>   <li>Компактний блок живлення&nbsp;300 W з вихідною напругою 48 V DC та вбудованим підводом живлення.</li>   <li>Призначений для стабільного живлення світлодіодних стрічок, LED-світильників та інших пристроїв на 48 V з високою питомою потужністю.</li>   <li>Корпус чорного кольору гармонійно вписується в сучасні інтер&rsquo;єри та монтажі, а продумана конструкція забезпечує надійну роботу під навантаженням без додаткового обслуговування.</li>  </ul>    <p><strong>Характеристики:</strong></p>    <ul>   <li>Вихідна напруга: 48 V DC;</li>   <li>Потужність: 300 W;</li>   <li>Вбудований підвід живлення;</li>   <li>Колір корпусу: чорний;</li>   <li>Сумісний з LED-стрічками та LED-світильниками на 48 V;</li>   <li>Висока ефективність та стабільність вихідної напруги;</li>   <li>Проста установка та підключення.</li>  </ul>]]></description>
     <description_ru><![CDATA[<p>Блок питания ALUMLED <strong>ALMG-PS 300 BK</strong></p>    <ul>   <li>Компактный блок питания 300 W с выходным напряжением 48 V DC и встроенным подводом питания.</li>   <li>Предназначена для стабильного питания светодиодных лент, LED-светильников и других устройств на 48 V с высокой удельной мощностью.</li>   <li>Корпус черного цвета гармонично вписывается в современные интерьеры и монтаж, а продуманная конструкция обеспечивает надежную работу под нагрузкой без дополнительного обслуживания.</li>  </ul>    <p><strong>Характеристики:</strong></p>    <ul>   <li>Выходное напряжение: 48 V DC;</li>   <li>Мощность: 300 W;</li>   <li>Встроенный подвод питания;</li>   <li>Цвет корпуса: черный;</li>   <li>Совместим с LED-лентами и LED-светильниками на 48 V;</li>   <li>Высокая эффективность и устойчивость выходного напряжения;</li>   <li>Простая установка и подключение.</li>  </ul>]]></description_ru>
    </offer>
-   <offer available="true">
+   <offer available="">
     <url>https://artled.com.ua/blok-zhyvlennia-mean-well-na-din-reiku-120w-dc24v-xdr-120e-24/</url>
     <price>1154.4</price>
     <currencyId>UAH</currencyId>
@@ -3872,20 +3872,20 @@
     <picture>https://svetodiody.com.ua/content/images/50/klus_18033na-36028004606882_+0650dc1f99.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/50/klus_18033na-94574779318669_+eed936c98e.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/50/klus_18033na-30996472913221_+8e79915387.png</picture>
-    <picture>https://svetodiody.com.ua/content/images/50/klus_18033na-16818325745034_+7332bef39e.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/17/30308693511942_+f8a5382e0b.jpeg</picture>
-    <picture>https://svetodiody.com.ua/content/images/50/klus_18033na-58857338053223_+3e25c13e40.jpg</picture>
+    <picture>https://svetodiody.com.ua/content/images/50/klus_18033na-16818325745034_+7332bef39e.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/17/17504853252703_+82dbaec7ea.jpeg</picture>
+    <picture>https://svetodiody.com.ua/content/images/50/klus_18033na-58857338053223_+3e25c13e40.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/50/klus_18033na-92447725004630_+1316257d25.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/17/27962055277694_+ea2939c59e.jpeg</picture>
-    <picture>https://svetodiody.com.ua/content/images/50/klus_18033na-22751424297798_+cfe8189a26.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/17/38494358175206_+a72b3b6185.jpeg</picture>
+    <picture>https://svetodiody.com.ua/content/images/50/klus_18033na-22751424297798_+cfe8189a26.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/50/klus_18033na-75775405100114_+8386c08e0c.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/17/87894425047704_+a5961ed6a9.jpeg</picture>
     <picture>https://svetodiody.com.ua/content/images/50/klus_18033na-85103667496407_+968c4f219e.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/17/38633300716089_+febeac1e11.jpeg</picture>
-    <picture>https://svetodiody.com.ua/content/images/50/klus_18033na-28921311710034_+642a031988.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/17/24175313971715_+d1f83f0a82.jpeg</picture>
+    <picture>https://svetodiody.com.ua/content/images/50/klus_18033na-28921311710034_+642a031988.jpg</picture>
     <vendorCode>KLUS _18033NA_1</vendorCode>
     <vendor>KLUS</vendor>
     <name><![CDATA[LED-профіль KLUS LIT-L, 2 метри (KLUS_A18033N_2)]]></name>
@@ -14256,8 +14256,9 @@ NMS1217-Plus.</p>
     <price>71.76</price>
     <currencyId>UAH</currencyId>
     <categoryId>1288</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/40/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-6mm-50m-s-type-series-s5289-15614633261011_+df9cde72f4.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/40/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-6mm-50m-s-type-series-s5289-12874834474886_+20d1a89c40.jpg</picture>
     <picture>https://www.prolum.com.ua/content/images/40/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-6mm-50m-s-type-series-s5289-89651213661343_+637afaefe0.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/40/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-6mm-50m-s-type-series-s5289-13346480628816_+2177a05212.jpg</picture>
     <vendorCode>350029</vendorCode>
     <vendor>PROLUM</vendor>
     <name><![CDATA[Світлодіодна LED стрічка PROLUM™ 24V; IP20; 2835\120; 6ММ; 50M; S-TYPE; Series "S", Білий (5500-6000К)]]></name>
@@ -14268,8 +14269,9 @@ NMS1217-Plus.</p>
     <price>71.76</price>
     <currencyId>UAH</currencyId>
     <categoryId>1288</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/41/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-6mm-50m-s-type-series-s-44194801701157_+1aa7e2802d.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/41/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-6mm-50m-s-type-series-s-88832833338825_+a54f184608.png</picture>
     <picture>https://www.prolum.com.ua/content/images/41/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-6mm-50m-s-type-series-s-73507325556996_+d01d91dcc4.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/41/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-6mm-50m-s-type-series-s-69884987351617_+33892facc9.png</picture>
     <vendorCode>350030</vendorCode>
     <vendor>PROLUM</vendor>
     <name><![CDATA[Світлодіодна LED стрічка PROLUM™ 24V; IP20; 2835\120; 6ММ; 50M; S-TYPE; Series "S", Тепло-Білий (2800-3200K)]]></name>
@@ -14835,24 +14837,6 @@ NMS1217-Plus.</p>
     <name><![CDATA[Магнітний трековий світильник PROLUM™ M20; 12W; 48V; Білий SERIES "MF"; CCT TuyaSmart]]></name>
     <name_ru><![CDATA[Магнитный трековый светильник PROLUM™ M20; 12 Вт; 48 В; белый; серия «MF»; CCT TuyaSmart]]></name_ru>
     <description><![CDATA[<h2>Магнітний трековий світильник PROLUM&trade; M20; SERIES &quot;MF&quot; ціна від виробника</h2>    <p>Магнитный трековый светильник PROLUM&nbsp;M20;&nbsp;Series &quot;MF&quot; - это современный и эффективный источник света, который привлекает внимание своей функциональностью и необычным дизайном.</p>    <p>Одним из основных преимуществ магнитной трековой системы является возможность быстрой и легкой установки и перемещения светильников по треку, благодаря наличию магнитных элементов на светильниках и в треке. Таким образом, можно легко и быстро изменить освещение комнаты, переставив светильники в нужное место.</p>    <p>Светильники PROLUM&nbsp;M20;&nbsp;Series &quot;MF&quot; доступны в нескольких видах и отличаются друг от друга по цвету свечения (теплый или холодный) и мощности (от 12 до 30 Вт). Благодаря этому, каждый может выбрать свой идеальный вариант для конкретного помещения и задачи.</p>    <p>Если вы хотите купить качественный и надежный светильник, который с легкостью можно установить и переносить по треку, рекомендуем выбрать магнитный трековый светильник PROLUM&nbsp;M20;&nbsp;Series &quot;MF&quot;. Заказать его можно в нашем интернет-магазине с доставкой по всей Украине. Будьте в курсе новых тенденций в дизайне интерьера и обеспечьте себе идеальное освещение с PROLUM&nbsp;M20;&nbsp;Series &quot;MF&quot;!</p>    <p>&nbsp;</p>]]></description>
-   </offer>
-   <offer available="true">
-    <url>https://artled.com.ua/mahnitnyi-trekovyi-svitylnyk-prolum-m20-12w-48vchornyi-series-tr-cct-tuyasmart/</url>
-    <price>1407.6</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>1323</categoryId>
-    <picture>https://artled.com.ua/content/images/1/mahnitnyi-trekovyi-svitylnyk-prolum-m20-12w-48vchornyi-series-tr-cct-tuyasmart-46140359249733_+db69536623.png</picture>
-    <picture>https://artled.com.ua/content/images/1/mahnitnyi-trekovyi-svitylnyk-prolum-m20-12w-48vchornyi-series-tr-cct-tuyasmart-76731513395409_+4b09178ddb.png</picture>
-    <picture>https://artled.com.ua/content/images/1/mahnitnyi-trekovyi-svitylnyk-prolum-m20-12w-48vchornyi-series-tr-cct-tuyasmart-54077169142228_+8d16af56dd.png</picture>
-    <picture>https://artled.com.ua/content/images/1/mahnitnyi-trekovyi-svitylnyk-prolum-m20-12w-48vchornyi-series-tr-cct-tuyasmart-49385144137343_+c3e25cc0c6.png</picture>
-    <picture>https://artled.com.ua/content/images/1/mahnitnyi-trekovyi-svitylnyk-prolum-m20-12w-48vchornyi-series-tr-cct-tuyasmart-77771097453025_+6eee2e1241.png</picture>
-    <picture>https://artled.com.ua/content/images/1/mahnitnyi-trekovyi-svitylnyk-prolum-m20-12w-48vchornyi-series-tr-cct-tuyasmart-45149674838919_+0301c1893e.png</picture>
-    <picture>https://artled.com.ua/content/images/1/mahnitnyi-trekovyi-svitylnyk-prolum-m20-12w-48vchornyi-series-tr-cct-tuyasmart-58907804308671_+443f5403a7.png</picture>
-    <vendorCode>741074</vendorCode>
-    <vendor>Prolum</vendor>
-    <name><![CDATA[Магнітний трековий світильник PROLUM™ M20; 12W; 48V;Чорний SERIES "TR"; CCT TuyaSmart]]></name>
-    <name_ru><![CDATA[Магнитный трековый светильник PROLUM™ M20; 12 Вт; 48 В; черный; серия «TR»; CCT TuyaSmart]]></name_ru>
-    <description><![CDATA[<h2>Магнітний трековий світильник PROLUM&trade; M20; 20W; SERIES &quot;TR&quot; ціна від виробника</h2>    <p>Вы ищете эффективное решение для освещения вашего помещения? Тогда мы рады предложить вам магнитный трековый светильник PROLUM M20; Series &quot;TR&quot;!</p>    <p>Этот светильник является настоящим технологическим прорывом в области освещения. Благодаря инновационной магнитной системе крепления, вы можете легко и быстро установить его в любом месте, а качественные светодиоды обеспечат яркое и равномерное освещение.</p>    <p>Этот светильник идеально подходит для использования в офисах, магазинах, ресторанах, домах и любых других помещениях. Кроме того, его компактный дизайн и возможность настройки направления света позволяют интегрировать его в любой интерьер, создавая уникальную атмосферу.</p>    <p>Приобретая магнитный трековый светильник PROLUM M20; Series &quot;TR&quot;&nbsp;в нашем интернет-магазине, вы получите высокое качество продукта по конкурентной цене. Мы гарантируем быструю и надежную доставку по всей Украине, а также отличный сервис и поддержку на всех этапах покупки.</p>    <p>Не упустите возможность обновить ваше освещение с помощью этого удивительного светильника. Закажите свой магнитный трековый светильник PROLUM M20; Series &quot;TR&quot;&nbsp;прямо сейчас и наслаждайтесь качественным освещением уже сегодня!</p>]]></description>
    </offer>
    <offer available="true">
     <url>https://artled.com.ua/svitylnyky/8851/</url>
@@ -15760,7 +15744,9 @@ NMS1217-Plus.</p>
     <price>71.76</price>
     <currencyId>UAH</currencyId>
     <categoryId>1288</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/9/91277489832924_+ac9fbdd7fc.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/9/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-6mm-50m-s-type-series-s5708-90577070053315_+92ca9357e0.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/9/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-6mm-50m-s-type-series-s5708-19166013293002_+7a41d4a731.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/9/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-6mm-50m-s-type-series-s5708-35615528314476_+af6df9dccb.jpg</picture>
     <vendorCode>350076</vendorCode>
     <vendor>PROLUM</vendor>
     <name><![CDATA[Світлодіодна LED стрічка PROLUM™ 24V; IP20; 2835\120; 6ММ; 50M; S-TYPE; Series "S", Холодний-білий (9000-10000К)]]></name>
@@ -15783,8 +15769,9 @@ NMS1217-Plus.</p>
     <price>66.24</price>
     <currencyId>UAH</currencyId>
     <categoryId>1288</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/12/13475174012522_+95975b724e.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/12/20370354343821_+6ce3d7d426.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/12/svitlodiodna-led-strichka-prolum-12v-ip20-2835120-s-type-series-s-49557463177299_+a6392fb4c6.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/12/svitlodiodna-led-strichka-prolum-12v-ip20-2835120-s-type-series-s-72963145920750_+fafb47a1d7.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/12/svitlodiodna-led-strichka-prolum-12v-ip20-2835120-s-type-series-s-26584685546230_+4c96cc5294.jpg</picture>
     <vendorCode>320141</vendorCode>
     <vendor>PROLUM</vendor>
     <name><![CDATA[Світлодіодна LED стрічка PROLUM™ 12V; IP20; 2835\120; S-TYPE; Series "S", Холодний-білий (9000-10000К)]]></name>
@@ -16045,6 +16032,7 @@ NMS1217-Plus.</p>
     <currencyId>UAH</currencyId>
     <categoryId>1288</categoryId>
     <picture>https://www.prolum.com.ua/content/images/37/73998278446596_+2ede0cac7c.png</picture>
+    <picture>https://www.prolum.com.ua/content/images/37/copy_svitlodiodna-led-strichka-prolum-220v-2835120-ip67-series-s-59910751868952_+04d09a8672.jpg</picture>
     <picture>https://www.prolum.com.ua/content/images/37/43776844013442_+ace4ba92fa.png</picture>
     <vendorCode>361015</vendorCode>
     <vendor>PROLUM</vendor>
@@ -16056,6 +16044,8 @@ NMS1217-Plus.</p>
     <price>154.56</price>
     <currencyId>UAH</currencyId>
     <categoryId>1288</categoryId>
+    <picture>https://www.prolum.com.ua/content/images/38/svitlodiodna-led-strichka-prolum-2835240-ip67-220v-series-s5787-46153567944090_+1a73197ef2.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/38/svitlodiodna-led-strichka-prolum-2835240-ip67-220v-series-s5787-41119748168010_+44fe55638e.jpg</picture>
     <picture>https://www.prolum.com.ua/content/images/38/svitlodiodna-led-strichka-prolum-2835240-ip67-220v-series-s5787-92836752970059_+5a891f7927.jpg</picture>
     <vendorCode>361016</vendorCode>
     <vendor>PROLUM</vendor>
@@ -16173,6 +16163,7 @@ NMS1217-Plus.</p>
     <currencyId>UAH</currencyId>
     <categoryId>1331</categoryId>
     <picture>https://www.prolum.com.ua/content/images/50/kontroler-universalnyi-prolum-5in1-wi-fi-mesh-tuya-series-homelink-69777064867831_+97cab3468b.png</picture>
+    <picture>https://www.prolum.com.ua/content/images/50/kontroler-universalnyi-prolum-5in1-wi-fi-mesh-tuya-series-homelink-78626556669452_+f7303b3b43.jpg</picture>
     <picture>https://www.prolum.com.ua/content/images/50/kontroler-universalnyi-prolum-5in1-wi-fi-mesh-tuya-series-homelink-26407083109056_+b81c4c0e3a.jpg</picture>
     <vendorCode>404040</vendorCode>
     <vendor>PROLUM</vendor>
@@ -16184,7 +16175,9 @@ NMS1217-Plus.</p>
     <price>237.36</price>
     <currencyId>UAH</currencyId>
     <categoryId>1288</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/2/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-free-cut-series-sg-17611108066466_+c8c8c7c9d9.png</picture>
+    <picture>https://www.prolum.com.ua/content/images/2/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-free-cut-series-sg-83001726044848_+b35aaae59f.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/2/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-free-cut-series-sg-15809784326834_+4bf2d03dd6.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/2/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-free-cut-series-sg-82331796044164_+bc91ac8dc1.jpg</picture>
     <vendorCode>350057</vendorCode>
     <vendor>PROLUM</vendor>
     <name><![CDATA[Світлодіодна LED стрічка PROLUM™ 24V; IP20; СОВ; 720 LED; Free Cut; Series "SG", Білий (5500-6000К)]]></name>
@@ -16195,7 +16188,9 @@ NMS1217-Plus.</p>
     <price>237.36</price>
     <currencyId>UAH</currencyId>
     <categoryId>1288</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/3/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-free-cut-series-sg5802-83902065408762_+2a7b52fcc0.png</picture>
+    <picture>https://www.prolum.com.ua/content/images/3/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-free-cut-series-sg5802-20556145862016_+4e23f32b43.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/3/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-free-cut-series-sg5802-23115367828077_+09521765eb.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/3/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-free-cut-series-sg5802-73164776336968_+d8d95d5501.jpg</picture>
     <vendorCode>350058</vendorCode>
     <vendor>PROLUM</vendor>
     <name><![CDATA[Світлодіодна LED стрічка PROLUM™ 24V; IP20; СОВ; 720 LED; Free Cut; Series "SG", Нейтральний-Білий (3800-4300K)]]></name>
@@ -16206,7 +16201,9 @@ NMS1217-Plus.</p>
     <price>237.36</price>
     <currencyId>UAH</currencyId>
     <categoryId>1288</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/4/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-free-cut-series-sg5803-45283945819558_+3bf043872b.png</picture>
+    <picture>https://www.prolum.com.ua/content/images/4/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-free-cut-series-sg5803-63396533924169_+fc78b6cbe6.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/4/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-free-cut-series-sg5803-24025784271796_+cfcb7ccf1c.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/4/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-free-cut-series-sg5803-60266917463118_+a0eecac327.jpg</picture>
     <vendorCode>350059</vendorCode>
     <vendor>PROLUM</vendor>
     <name><![CDATA[Світлодіодна LED стрічка PROLUM™ 24V; IP20; СОВ; 720 LED; Free Cut; Series "SG", Тепло-Білий (2800-3200K)]]></name>
@@ -16262,11 +16259,9 @@ NMS1217-Plus.</p>
     <price>115.92</price>
     <currencyId>UAH</currencyId>
     <categoryId>1288</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/12/28701490095802_+d999c0c7c3.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/12/svitlodiodna-led-strichka-prolum-24v-sov-480-led-ip20-series-s-48704027482853_+e6a817f43a.jpg</picture>
     <picture>https://www.prolum.com.ua/content/images/12/40649254375067_+0f614fd797.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/12/72973716015305_+9761b4a1d9.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/12/84495923778034_+a89508c875.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/12/89256227204044_+de6a736f0a.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/12/svitlodiodna-led-strichka-prolum-24v-sov-480-led-ip20-series-s-69826074374828_+8be6872a89.jpg</picture>
     <vendorCode>350063</vendorCode>
     <vendor>PROLUM</vendor>
     <name><![CDATA[Світлодіодна LED стрічка PROLUM™ 24V; СОВ; 480 LED; IP20; Series "S", Білий (5500-6000К)]]></name>
@@ -16277,11 +16272,9 @@ NMS1217-Plus.</p>
     <price>115.92</price>
     <currencyId>UAH</currencyId>
     <categoryId>1288</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/13/63876561989558_+511604a2eb.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/13/svitlodiodna-led-strichka-prolum-24v-sov-480-led-ip20-series-s5812-20684872147160_+b6b0a9b104.jpg</picture>
     <picture>https://www.prolum.com.ua/content/images/13/58957472810600_+b181ee89f0.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/13/90556510077181_+bec98cbf50.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/13/69095314249272_+23df723a71.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/13/83732623460776_+650edfb0f3.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/13/svitlodiodna-led-strichka-prolum-24v-sov-480-led-ip20-series-s5812-93856696081357_+fd0601112b.jpg</picture>
     <vendorCode>350064</vendorCode>
     <vendor>PROLUM</vendor>
     <name><![CDATA[Світлодіодна LED стрічка PROLUM™ 24V; СОВ; 480 LED; IP20; Series "S", Нейтральний-Білий (3800-4300K)]]></name>
@@ -16292,11 +16285,9 @@ NMS1217-Plus.</p>
     <price>115.92</price>
     <currencyId>UAH</currencyId>
     <categoryId>1288</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/14/90520189563955_+d78395fc8c.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/14/24699170874999_+fd0bc88540.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/14/24811860699852_+6327f226de.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/14/40291562231765_+156f3e88c5.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/14/63576595942862_+d79b17f1a2.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/14/svitlodiodna-led-strichka-prolum-24v-sov-480-led-ip20-series-s5813-25480375669930_+f7839c9338.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/14/svitlodiodna-led-strichka-prolum-24v-sov-480-led-ip20-series-s5813-66212289045333_+7d36bdcacf.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/14/svitlodiodna-led-strichka-prolum-24v-sov-480-led-ip20-series-s5813-45887682213138_+910030239a.jpg</picture>
     <vendorCode>350065</vendorCode>
     <vendor>PROLUM</vendor>
     <name><![CDATA[Світлодіодна LED стрічка PROLUM™ 24V; СОВ; 480 LED; IP20; Series "S", Тепло-Білий (2800-3200K)]]></name>
@@ -16307,9 +16298,9 @@ NMS1217-Plus.</p>
     <price>165.6</price>
     <currencyId>UAH</currencyId>
     <categoryId>1288</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/15/29045174663722_+e480191c0e.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/15/35022154566530_+f341ecaf82.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/15/29388256789944_+24ccba95e6.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/15/svitlodiodna-strichka-sov-prolum-12v-320led-ip65-series-sg-55308423471748_+f3374bd8f4.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/15/svitlodiodna-strichka-sov-prolum-12v-320led-ip65-series-sg-64898950227920_+063a126cc4.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/15/svitlodiodna-strichka-sov-prolum-12v-320led-ip65-series-sg-51737504264208_+8c7752c701.jpg</picture>
     <vendorCode>320057</vendorCode>
     <vendor>PROLUM</vendor>
     <name><![CDATA[Світлодіодна стрічка СОВ PROLUM™ 12V; 320 LED; IP65; Series "SG", Білий (5500-6000К)]]></name>
@@ -16320,11 +16311,9 @@ NMS1217-Plus.</p>
     <price>165.6</price>
     <currencyId>UAH</currencyId>
     <categoryId>1288</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/16/45861353896154_+08b5f5d584.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/16/23950755416955_+9c206627e4.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/16/88162451807381_+c4187f4553.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/16/11558132090500_+1d1d356811.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/16/84196283363293_+fe8a775d61.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/16/svitlodiodna-strichka-sov-prolum-12v-320-led-ip65-series-sg-30214505360114_+e95a29e07f.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/16/svitlodiodna-strichka-sov-prolum-12v-320-led-ip65-series-sg-76856167937897_+80ff533f22.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/16/svitlodiodna-strichka-sov-prolum-12v-320-led-ip65-series-sg-61558597149430_+912f9db96f.jpg</picture>
     <vendorCode>320058</vendorCode>
     <vendor>PROLUM</vendor>
     <name><![CDATA[Світлодіодна стрічка СОВ PROLUM™ 12V; 320 LED; IP65; Series "SG", Нейтральний-Білий (3800-4300K)]]></name>
@@ -16335,9 +16324,9 @@ NMS1217-Plus.</p>
     <price>165.6</price>
     <currencyId>UAH</currencyId>
     <categoryId>1288</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/17/87549910595463_+07e82b6f5a.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/17/38771582647607_+54a388d1fe.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/17/46323430497924_+a586fcd356.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/17/svitlodiodna-strichka-sov-prolum-12v-320-led-ip65-series-sg5816-67273365424770_+f8084dc20f.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/17/svitlodiodna-strichka-sov-prolum-12v-320-led-ip65-series-sg5816-14367683227828_+4c5fa622cb.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/17/svitlodiodna-strichka-sov-prolum-12v-320-led-ip65-series-sg5816-17614105825244_+4e38ec5133.jpg</picture>
     <vendorCode>320059</vendorCode>
     <vendor>PROLUM</vendor>
     <name><![CDATA[Світлодіодна стрічка СОВ PROLUM™ 12V; 320 LED; IP65; Series "SG", Тепло-Білий (2800-3200K)]]></name>
@@ -16348,7 +16337,9 @@ NMS1217-Plus.</p>
     <price>193.2</price>
     <currencyId>UAH</currencyId>
     <categoryId>1288</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/18/copy_svitlodiodna-led-strichka-prolum-24v-sov-480-led-ip20-series-pro-49854110945596_+5df3fb2176.png</picture>
+    <picture>https://www.prolum.com.ua/content/images/18/copy_svitlodiodna-led-strichka-prolum-24v-sov-480-led-ip20-series-pro-93372481597624_+b70969459b.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/18/copy_svitlodiodna-led-strichka-prolum-24v-sov-480-led-ip20-series-pro-68190691323660_+09f3286f30.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/18/copy_svitlodiodna-led-strichka-prolum-24v-sov-480-led-ip20-series-pro-76869235009257_+4122a12778.jpg</picture>
     <vendorCode>350069</vendorCode>
     <vendor>PROLUM</vendor>
     <name><![CDATA[Світлодіодна LED стрічка PROLUM™ 24V; СОВ; 520 LED; IP20; Series "SG", Білий (5500-6000К)]]></name>
@@ -16359,7 +16350,9 @@ NMS1217-Plus.</p>
     <price>193.2</price>
     <currencyId>UAH</currencyId>
     <categoryId>1288</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/19/svitlodiodna-led-strichka-prolum-24v-sov-520-led-ip20-series-sg-22293518531405_+d2d48634be.png</picture>
+    <picture>https://www.prolum.com.ua/content/images/19/svitlodiodna-led-strichka-prolum-24v-sov-520-led-ip20-series-sg-26380311296164_+efdc4c2f88.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/19/svitlodiodna-led-strichka-prolum-24v-sov-520-led-ip20-series-sg-22100148582667_+35ea345842.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/19/svitlodiodna-led-strichka-prolum-24v-sov-520-led-ip20-series-sg-92319936304954_+7d60289d47.jpg</picture>
     <vendorCode>350070</vendorCode>
     <vendor>PROLUM</vendor>
     <name><![CDATA[Світлодіодна LED стрічка PROLUM™ 24V; СОВ; 520 LED; IP20; Series "SG", Нейтральний-Білий (3800-4300K)]]></name>
@@ -16370,7 +16363,9 @@ NMS1217-Plus.</p>
     <price>193.2</price>
     <currencyId>UAH</currencyId>
     <categoryId>1288</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/20/svitlodiodna-led-strichka-prolum-24v-sov-520-led-ip20-series-sg5819-71129566961820_+8b11e8b118.png</picture>
+    <picture>https://www.prolum.com.ua/content/images/20/svitlodiodna-led-strichka-prolum-24v-sov-520-led-ip20-series-sg5819-50449154991576_+83efaa10d5.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/20/svitlodiodna-led-strichka-prolum-24v-sov-520-led-ip20-series-sg5819-94178211626213_+d6f8637748.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/20/svitlodiodna-led-strichka-prolum-24v-sov-520-led-ip20-series-sg5819-63513313510422_+3383cac5a1.jpg</picture>
     <vendorCode>350071</vendorCode>
     <vendor>PROLUM</vendor>
     <name><![CDATA[Світлодіодна LED стрічка PROLUM™ 24V; СОВ; 520 LED; IP20; Series "SG", Тепло-Білий (2800-3200K)]]></name>
@@ -16381,7 +16376,9 @@ NMS1217-Plus.</p>
     <price>276.0</price>
     <currencyId>UAH</currencyId>
     <categoryId>1288</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/21/svitlodiodna-led-strichka-prolum-24v-sov-624-led-ip20-series-sg-47830800950656_+a683ce23d5.png</picture>
+    <picture>https://www.prolum.com.ua/content/images/21/svitlodiodna-led-strichka-prolum-24v-sov-624-led-ip20-series-sg-77184086542092_+027af15fe7.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/21/svitlodiodna-led-strichka-prolum-24v-sov-624-led-ip20-series-sg-62494196538576_+2f7c78f2c3.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/21/svitlodiodna-led-strichka-prolum-24v-sov-624-led-ip20-series-sg-47512264259667_+a3263f8cf0.jpg</picture>
     <vendorCode>350072</vendorCode>
     <vendor>PROLUM</vendor>
     <name><![CDATA[Світлодіодна LED стрічка PROLUM™ 24V; СОВ; 624 LED; IP20; Series "SG", Білий (5500-6000К)]]></name>
@@ -16392,7 +16389,9 @@ NMS1217-Plus.</p>
     <price>276.0</price>
     <currencyId>UAH</currencyId>
     <categoryId>1288</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/22/svitlodiodna-led-strichka-prolum-24v-sov-624-led-ip20-series-sg5821-27118084088113_+395e920f99.png</picture>
+    <picture>https://www.prolum.com.ua/content/images/22/svitlodiodna-led-strichka-prolum-24v-sov-624-led-ip20-series-sg5821-17454418531290_+7938753768.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/22/svitlodiodna-led-strichka-prolum-24v-sov-624-led-ip20-series-sg5821-26824791795415_+0d76403828.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/22/svitlodiodna-led-strichka-prolum-24v-sov-624-led-ip20-series-sg5821-89618024159514_+69003c9968.jpg</picture>
     <vendorCode>350073</vendorCode>
     <vendor>PROLUM</vendor>
     <name><![CDATA[Світлодіодна LED стрічка PROLUM™ 24V; СОВ; 624 LED; IP20; Series "SG", Нейтральний-Білий (3800-4300K)]]></name>
@@ -16403,7 +16402,9 @@ NMS1217-Plus.</p>
     <price>276.0</price>
     <currencyId>UAH</currencyId>
     <categoryId>1288</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/23/svitlodiodna-led-strichka-prolum-24v-sov-624-led-ip20-series-sg5822-36284543420678_+cc3f061dca.png</picture>
+    <picture>https://www.prolum.com.ua/content/images/23/svitlodiodna-led-strichka-prolum-24v-sov-624-led-ip20-series-sg5822-19168911577074_+70d237641a.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/23/svitlodiodna-led-strichka-prolum-24v-sov-624-led-ip20-series-sg5822-57041182264125_+c23f3b1d67.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/23/svitlodiodna-led-strichka-prolum-24v-sov-624-led-ip20-series-sg5822-61416701514530_+0ae92df2d9.jpg</picture>
     <vendorCode>350074</vendorCode>
     <vendor>PROLUM</vendor>
     <name><![CDATA[Світлодіодна LED стрічка PROLUM™ 24V; СОВ; 624 LED; IP20; Series "SG", Тепло-Білий (2800-3200K)]]></name>
@@ -19140,6 +19141,24 @@ NMS1217-Plus.</p>
     <description><![CDATA[<p>Контролер управління PROLUM RGB; Bluetooth;&nbsp;TUYA; 18A; Series: HomeLink необхідний для управління кольором і яскравістю світлодіодних RGB стрічок. З завантаженими в пам&#39;ять однією або декількома програмами.</p>    <h2>Основні функції Контролера&nbsp;управління PROLUM RGB; Bluetooth; TUYA; 18A; Series: HomeLink:</h2>    <ul>   <li>Змінювати яскравість світіння</li>   <li>Швидкість перемикання</li>   <li>Змінний кольору в режимі плавного і стрибкоподібного перемикання.</li>  </ul>    <p>&nbsp;Переваги Контролера управління PROLUM RGB; Bluetooth; TUYA; 18A; Series: HomeLink:</p>    <ul>   <li>Відповідність стандартам ROHs, CE</li>   <li>Широкий асортименту моделей</li>   <li>Надійність</li>   <li>Доступна вартість</li>  </ul>]]></description>
    </offer>
    <offer available="">
+    <url>https://artled.com.ua/mahnitnyi-trekovyi-svitylnyk-prolum-m20-12w-48vchornyi-series-tr-cct-tuyasmart/</url>
+    <price>1407.6</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>1323</categoryId>
+    <picture>https://artled.com.ua/content/images/1/mahnitnyi-trekovyi-svitylnyk-prolum-m20-12w-48vchornyi-series-tr-cct-tuyasmart-46140359249733_+db69536623.png</picture>
+    <picture>https://artled.com.ua/content/images/1/mahnitnyi-trekovyi-svitylnyk-prolum-m20-12w-48vchornyi-series-tr-cct-tuyasmart-76731513395409_+4b09178ddb.png</picture>
+    <picture>https://artled.com.ua/content/images/1/mahnitnyi-trekovyi-svitylnyk-prolum-m20-12w-48vchornyi-series-tr-cct-tuyasmart-54077169142228_+8d16af56dd.png</picture>
+    <picture>https://artled.com.ua/content/images/1/mahnitnyi-trekovyi-svitylnyk-prolum-m20-12w-48vchornyi-series-tr-cct-tuyasmart-49385144137343_+c3e25cc0c6.png</picture>
+    <picture>https://artled.com.ua/content/images/1/mahnitnyi-trekovyi-svitylnyk-prolum-m20-12w-48vchornyi-series-tr-cct-tuyasmart-77771097453025_+6eee2e1241.png</picture>
+    <picture>https://artled.com.ua/content/images/1/mahnitnyi-trekovyi-svitylnyk-prolum-m20-12w-48vchornyi-series-tr-cct-tuyasmart-45149674838919_+0301c1893e.png</picture>
+    <picture>https://artled.com.ua/content/images/1/mahnitnyi-trekovyi-svitylnyk-prolum-m20-12w-48vchornyi-series-tr-cct-tuyasmart-58907804308671_+443f5403a7.png</picture>
+    <vendorCode>741074</vendorCode>
+    <vendor>Prolum</vendor>
+    <name><![CDATA[Магнітний трековий світильник PROLUM™ M20; 12W; 48V;Чорний SERIES "TR"; CCT TuyaSmart]]></name>
+    <name_ru><![CDATA[Магнитный трековый светильник PROLUM™ M20; 12 Вт; 48 В; черный; серия «TR»; CCT TuyaSmart]]></name_ru>
+    <description><![CDATA[<h2>Магнітний трековий світильник PROLUM&trade; M20; 20W; SERIES &quot;TR&quot; ціна від виробника</h2>    <p>Вы ищете эффективное решение для освещения вашего помещения? Тогда мы рады предложить вам магнитный трековый светильник PROLUM M20; Series &quot;TR&quot;!</p>    <p>Этот светильник является настоящим технологическим прорывом в области освещения. Благодаря инновационной магнитной системе крепления, вы можете легко и быстро установить его в любом месте, а качественные светодиоды обеспечат яркое и равномерное освещение.</p>    <p>Этот светильник идеально подходит для использования в офисах, магазинах, ресторанах, домах и любых других помещениях. Кроме того, его компактный дизайн и возможность настройки направления света позволяют интегрировать его в любой интерьер, создавая уникальную атмосферу.</p>    <p>Приобретая магнитный трековый светильник PROLUM M20; Series &quot;TR&quot;&nbsp;в нашем интернет-магазине, вы получите высокое качество продукта по конкурентной цене. Мы гарантируем быструю и надежную доставку по всей Украине, а также отличный сервис и поддержку на всех этапах покупки.</p>    <p>Не упустите возможность обновить ваше освещение с помощью этого удивительного светильника. Закажите свой магнитный трековый светильник PROLUM M20; Series &quot;TR&quot;&nbsp;прямо сейчас и наслаждайтесь качественным освещением уже сегодня!</p>]]></description>
+   </offer>
+   <offer available="">
     <url>https://www.prolum.com.ua/komplekt-profil-pid-hipsokarton-priamyi-anodovanyirozsiiuvach-matovyi-lpd-131a/</url>
     <price>269.38</price>
     <currencyId>UAH</currencyId>
@@ -19227,6 +19246,9 @@ NMS1217-Plus.</p>
     <price>347.76</price>
     <currencyId>UAH</currencyId>
     <categoryId>1333</categoryId>
+    <picture>https://www.prolum.com.ua/content/images/24/korobka-rozpodilna-hermetychna-ip68-prolum-b-2068-2t-l-28188662655301_+1b6f6a4c21.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/24/korobka-rozpodilna-hermetychna-ip68-prolum-b-2068-2t-l-83526285872802_+c60764a003.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/24/korobka-rozpodilna-hermetychna-ip68-prolum-b-2068-2t-l-26244003808069_+93e4381e5b.jpg</picture>
     <vendorCode>503100</vendorCode>
     <vendor>PROLUM</vendor>
     <name><![CDATA[Коробка розподільна герметична IP68; PROLUM  (B-2068-2T-L)]]></name>
