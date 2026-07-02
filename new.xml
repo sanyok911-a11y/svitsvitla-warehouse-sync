@@ -2795,7 +2795,7 @@
     <description><![CDATA[<p>Блок живлення Mean Well <strong>XDR-150E-24</strong></p>    <ul>   <li>Ультратонкий промисловий AC/DC перетворювач потужністю 150W для монтажу на DIN-рейку.</li>   <li>Завдяки ширині корпусу лише 30 міліметрів він оптимізує простір у шафах керування та ідеально підходить для промислових систем автоматизації, системи керування, обладнання для виробництва напівпровідників заводська автоматизація, електромеханічні пристрої, зарядні пристрої для акумуляторів.</li>   <li>XDR-150E-24&nbsp;&mdash; компактне, енергоефективне та надійне рішення для професійних промислових систем.</li>  </ul>    <p><strong>Основні характеристики:</strong></p>    <ul>   <li>Вихідна напруга: 24V DC;</li>   <li>Вихідний струм: 5.2A/6.5A (115VAC/230VAC);</li>   <li>Потужність: 124.8W/156W (115VAC/230VAC);</li>   <li>Вхідна напруга: 85&ndash;264VAC;</li>   <li>ККД: до 91%;</li>   <li>Споживання без навантаження: 0.6W-1W;</li>   <li>Ширина корпусу: 30 міліметрів</li>   <li>Робоча температура: від -40 до +70&deg;C (при &gt;+50&deg;C необхідне зниження навантаження);</li>   <li>Висота експлуатації: до 5000 метрів;</li>   <li>Монтаж: DIN-рейка TS-35/7.5 або 15;</li>  </ul>    <p><strong>Захист:</strong></p>    <ul>   <li>Коротке замикання, перевантаження, перенапруга, перегрів;</li>   <li>Вбудоване обмеження постійного струму;</li>   <li>Категорія перенапруги OVC III;</li>   <li>Вбудований релейний контакт DC OK;</li>  </ul>    <p><strong>Особливості:</strong></p>    <ul>   <li>Без вентиляторне охолодження (вільна конвекція);</li>   <li>Вузький корпус для економії місця;</li>   <li>Низьке енергоспоживання в режимі очікування;</li>   <li>Глобальні сертифікати безпеки (ITE 62368-1, Industrial 61558-1/-2-16, 61010);</li>  </ul>    <p>Гарантія: 3 роки.</p>]]></description>
     <description_ru><![CDATA[<p>Блок питания Mean Well <strong>XDR-150E-24</strong></p>    <ul>   <li>Ультратонкий промышленный AC/DC преобразователь мощностью 150W для монтажа на DIN-рейку.</li>   <li>Благодаря ширине корпуса всего 30 миллиметров он оптимизирует пространство в шкафах управления и идеально подходит для промышленных систем автоматизации, системы управления, оборудования для производства полупроводников, заводской автоматизации, электромеханических устройств, зарядных устройств для аккумуляторов.</li>   <li>XDR-150E-24 &ndash; компактное, энергоэффективное и надежное решение для профессиональных промышленных систем.</li>  </ul>    <p><strong>Основные характеристики:</strong></p>    <ul>   <li>Выходное напряжение: 24V DC;</li>   <li>Выходной ток: 5.2A/6.5A (115VAC/230VAC);</li>   <li>Мощность: 124.8W/156W (115VAC/230VAC);</li>   <li>Входное напряжение: 85&ndash;264VAC;</li>   <li>КПД: до 91%;</li>   <li>Потребление без погрузки: 0.6W-1W;</li>   <li>Ширина корпуса: 30 миллиметров</li>   <li>Рабочая температура: от -40 до +70&deg;C (при &gt;50&deg;C необходимо снижение нагрузки);</li>   <li>Высота эксплуатации: до 5000 метров;</li>   <li>Монтаж: DIN-рейка TS-35/7.5 или 15;</li>  </ul>    <p><strong>Защита:</strong></p>    <ul>   <li>Краткое замыкание, перегрузка, перенапряжение, перегрев;</li>   <li>Встроенное ограничение постоянного тока;</li>   <li>Категория перенапряжения OVC III;</li>   <li>Встроенный релейный контакт DC OK;</li>  </ul>    <p><strong>Особенности:</strong></p>    <ul>   <li>Без вентиляторного охлаждения (свободная конвекция);</li>   <li>Узкий корпус для экономии места;</li>   <li>Низкое энергопотребление в режиме ожидания;</li>   <li>Глобальные сертификаты безопасности (ITE 62368-1, Industrial 61558-1/2-16, 61010);</li>  </ul>    <p>Гарантия: 3 года.</p>]]></description_ru>
    </offer>
-   <offer available="true">
+   <offer available="">
     <url>https://artled.com.ua/blok-zhyvlennia-mean-well-na-din-reiku-960w-dc24v-40a-xdr-960e-24/</url>
     <price>10212.0</price>
     <currencyId>UAH</currencyId>
@@ -3667,20 +3667,20 @@
     <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-45401740102103_+128358071b.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-82256030894358_+8b7ec66046.png</picture>
     <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-87302956992727_+58f98130ef.jpg</picture>
-    <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-38061099702597_+42f713aa8b.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/12/29986476003198_+671fdbe610.jpeg</picture>
-    <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-63171266161874_+96b4dca49c.jpg</picture>
+    <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-38061099702597_+42f713aa8b.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/12/67104732092184_+940b9aef56.jpeg</picture>
-    <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-72260939257859_+0e2d9f56e5.jpg</picture>
+    <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-63171266161874_+96b4dca49c.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/12/51610043571921_+7a6c1f5f7d.jpeg</picture>
+    <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-72260939257859_+0e2d9f56e5.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-77891050334831_+bc1be90035.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/12/71983757978313_+abb2af8fdb.jpeg</picture>
     <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-91848571617026_+b6d23a4941.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/12/83497707958832_+24bf9c7dd4.jpeg</picture>
     <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-91650399334947_+9df13c4ed1.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/12/72688834400599_+5b846a039f.jpeg</picture>
-    <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-41520451281145_+9027aa0de0.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/12/24727533571653_+f82cf541eb.jpeg</picture>
+    <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-41520451281145_+9027aa0de0.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-95287632300005_+caf499fa98.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/12/24531667381284_+884511fb05.jpeg</picture>
     <vendorCode>0640</vendorCode>
@@ -3872,20 +3872,20 @@
     <picture>https://svetodiody.com.ua/content/images/50/klus_18033na-36028004606882_+0650dc1f99.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/50/klus_18033na-94574779318669_+eed936c98e.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/50/klus_18033na-30996472913221_+8e79915387.png</picture>
-    <picture>https://svetodiody.com.ua/content/images/17/30308693511942_+f8a5382e0b.jpeg</picture>
     <picture>https://svetodiody.com.ua/content/images/50/klus_18033na-16818325745034_+7332bef39e.jpg</picture>
-    <picture>https://svetodiody.com.ua/content/images/17/17504853252703_+82dbaec7ea.jpeg</picture>
+    <picture>https://svetodiody.com.ua/content/images/17/30308693511942_+f8a5382e0b.jpeg</picture>
     <picture>https://svetodiody.com.ua/content/images/50/klus_18033na-58857338053223_+3e25c13e40.jpg</picture>
+    <picture>https://svetodiody.com.ua/content/images/17/17504853252703_+82dbaec7ea.jpeg</picture>
     <picture>https://svetodiody.com.ua/content/images/50/klus_18033na-92447725004630_+1316257d25.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/17/27962055277694_+ea2939c59e.jpeg</picture>
-    <picture>https://svetodiody.com.ua/content/images/17/38494358175206_+a72b3b6185.jpeg</picture>
     <picture>https://svetodiody.com.ua/content/images/50/klus_18033na-22751424297798_+cfe8189a26.jpg</picture>
-    <picture>https://svetodiody.com.ua/content/images/50/klus_18033na-75775405100114_+8386c08e0c.jpg</picture>
+    <picture>https://svetodiody.com.ua/content/images/17/38494358175206_+a72b3b6185.jpeg</picture>
     <picture>https://svetodiody.com.ua/content/images/17/87894425047704_+a5961ed6a9.jpeg</picture>
-    <picture>https://svetodiody.com.ua/content/images/50/klus_18033na-85103667496407_+968c4f219e.jpg</picture>
+    <picture>https://svetodiody.com.ua/content/images/50/klus_18033na-75775405100114_+8386c08e0c.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/17/38633300716089_+febeac1e11.jpeg</picture>
-    <picture>https://svetodiody.com.ua/content/images/17/24175313971715_+d1f83f0a82.jpeg</picture>
+    <picture>https://svetodiody.com.ua/content/images/50/klus_18033na-85103667496407_+968c4f219e.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/50/klus_18033na-28921311710034_+642a031988.jpg</picture>
+    <picture>https://svetodiody.com.ua/content/images/17/24175313971715_+d1f83f0a82.jpeg</picture>
     <vendorCode>KLUS _18033NA_1</vendorCode>
     <vendor>KLUS</vendor>
     <name><![CDATA[LED-профіль KLUS LIT-L, 2 метри (KLUS_A18033N_2)]]></name>
@@ -16031,8 +16031,8 @@ NMS1217-Plus.</p>
     <price>99.36</price>
     <currencyId>UAH</currencyId>
     <categoryId>1288</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/37/73998278446596_+2ede0cac7c.png</picture>
     <picture>https://www.prolum.com.ua/content/images/37/copy_svitlodiodna-led-strichka-prolum-220v-2835120-ip67-series-s-59910751868952_+04d09a8672.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/37/73998278446596_+2ede0cac7c.png</picture>
     <picture>https://www.prolum.com.ua/content/images/37/43776844013442_+ace4ba92fa.png</picture>
     <vendorCode>361015</vendorCode>
     <vendor>PROLUM</vendor>
@@ -16044,8 +16044,8 @@ NMS1217-Plus.</p>
     <price>154.56</price>
     <currencyId>UAH</currencyId>
     <categoryId>1288</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/38/svitlodiodna-led-strichka-prolum-2835240-ip67-220v-series-s5787-46153567944090_+1a73197ef2.jpg</picture>
     <picture>https://www.prolum.com.ua/content/images/38/svitlodiodna-led-strichka-prolum-2835240-ip67-220v-series-s5787-41119748168010_+44fe55638e.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/38/svitlodiodna-led-strichka-prolum-2835240-ip67-220v-series-s5787-69531376866190_+43570259cd.png</picture>
     <picture>https://www.prolum.com.ua/content/images/38/svitlodiodna-led-strichka-prolum-2835240-ip67-220v-series-s5787-92836752970059_+5a891f7927.jpg</picture>
     <vendorCode>361016</vendorCode>
     <vendor>PROLUM</vendor>
@@ -16409,6 +16409,110 @@ NMS1217-Plus.</p>
     <vendor>PROLUM</vendor>
     <name><![CDATA[Світлодіодна LED стрічка PROLUM™ 24V; СОВ; 624 LED; IP20; Series "SG", Тепло-Білий (2800-3200K)]]></name>
     <description><![CDATA[<p>Стрічка СОВ PROlum &trade; 24V 624 LED IP20 SG є тонкою друкованною&nbsp;платою, з одного боку якої напаяні світлодіоди, а з іншого знаходиться наклеюють основа.</p>    <h2>Основне застосування Стрічка СОВ PROlum &trade; 24V 624 LED IP20 SG:</h2>    <p>Для інтер&#39;єрного освітлення:</p>    <ul>   <li>Натяжних стель</li>   <li>Підсвічування меблів</li>   <li>Робочої зони кухні</li>   <li>Ванної кімнати</li>  </ul>    <p>Для підсвічування зовнішніх об&#39;єктів:</p>    <ul>   <li>Виділити контури будівлі</li>   <li>Освітлення вітрин, вивісок</li>   <li>Об&#39;єктів реклами</li>   <li>Контурній підсвічування фар</li>  </ul>    <h2>Переваги світлодіодної Стрічка СОВ PROlum &trade; 24V 624 LED IP20 SG:</h2>    <ul>   <li>Висока якість продукту</li>   <li>Відповідність стандартам ROHs, CE</li>   <li>Економія до 90% електроенергії</li>   <li>Простота монтажу</li>   <li>Широкий спектр застосування</li>   <li>Надійність</li>   <li>Доступна вартість</li>  </ul>]]></description>
+   </offer>
+   <offer available="true">
+    <url>https://www.prolum.com.ua/korobka-rozpodilna-hermetychna-ip68-prolum-b-2068-2t-l/</url>
+    <price>331.2</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>1333</categoryId>
+    <picture>https://www.prolum.com.ua/content/images/24/korobka-rozpodilna-hermetychna-ip68-prolum-b-2068-2t-l-28188662655301_+1b6f6a4c21.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/24/korobka-rozpodilna-hermetychna-ip68-prolum-b-2068-2t-l-83526285872802_+c60764a003.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/24/korobka-rozpodilna-hermetychna-ip68-prolum-b-2068-2t-l-26244003808069_+93e4381e5b.jpg</picture>
+    <vendorCode>503100</vendorCode>
+    <vendor>PROLUM</vendor>
+    <name><![CDATA[Коробка розподільна герметична IP68; PROLUM  (B-2068-2T-L)]]></name>
+    <description><![CDATA[<p>Коробка розподільна герметична IP68; PROLUM &nbsp;(B-2068-2T-L)</p>]]></description>
+   </offer>
+   <offer available="true">
+    <url>https://www.prolum.com.ua/klema-shvydkoho-montazhu-prolum-rt-223-4p/</url>
+    <price>31.46</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>1333</categoryId>
+    <picture>https://www.prolum.com.ua/content/images/25/klema-shvydkoho-montazhu-prolum-rt-223-4p-80002471175958_+db647f58df.png</picture>
+    <picture>https://www.prolum.com.ua/content/images/25/klema-shvydkoho-montazhu-prolum-rt-223-4p-22798792769446_+ed54a9aed4.png</picture>
+    <vendorCode>503099</vendorCode>
+    <vendor>PROLUM</vendor>
+    <name><![CDATA[Клема швидкого монтажу PROLUM (RT-223-4P)]]></name>
+    <description><![CDATA[<p>Клема швидкого монтажу PROLUM (RT-223-2P)</p>]]></description>
+   </offer>
+   <offer available="true">
+    <url>https://www.prolum.com.ua/klema-shvydkoho-montazhu-prolum-rt-223-3p/</url>
+    <price>22.08</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>1333</categoryId>
+    <picture>https://www.prolum.com.ua/content/images/26/klema-shvydkoho-montazhu-prolum-rt-223-3p-91295538874020_+e57ea20123.png</picture>
+    <picture>https://www.prolum.com.ua/content/images/26/klema-shvydkoho-montazhu-prolum-rt-223-3p-45648841742504_+491b4a421c.png</picture>
+    <vendorCode>503098</vendorCode>
+    <vendor>PROLUM</vendor>
+    <name><![CDATA[Клема швидкого монтажу PROLUM (RT-223-3P)]]></name>
+    <description><![CDATA[<p>Клема швидкого монтажу PROLUM (RT-223-2P)</p>]]></description>
+   </offer>
+   <offer available="true">
+    <url>https://www.prolum.com.ua/klema-shvydkoho-montazhu-prolum-rt-223-2p/</url>
+    <price>16.56</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>1333</categoryId>
+    <picture>https://www.prolum.com.ua/content/images/27/klema-shvydkoho-montazhu-prolum-rt-223-2p-20403467906058_+5d7f14c80d.png</picture>
+    <picture>https://www.prolum.com.ua/content/images/27/klema-shvydkoho-montazhu-prolum-rt-223-2p-95335104489711_+819861f7b8.png</picture>
+    <vendorCode>503097</vendorCode>
+    <vendor>PROLUM</vendor>
+    <name><![CDATA[Клема швидкого монтажу PROLUM (RT-223-2P)]]></name>
+    <description><![CDATA[<p>Клема швидкого монтажу PROLUM (RT-223-2P)</p>]]></description>
+   </offer>
+   <offer available="true">
+    <url>https://www.prolum.com.ua/klema-shvydkoho-montazhu-prolum-rt-418a/</url>
+    <price>22.08</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>1333</categoryId>
+    <picture>https://www.prolum.com.ua/content/images/28/klema-shvydkoho-montazhu-prolum-rt-418a-48790892818860_+8ee165ee3e.png</picture>
+    <vendorCode>503092</vendorCode>
+    <vendor>PROLUM</vendor>
+    <name><![CDATA[Клема швидкого монтажу PROLUM (RT-418А)]]></name>
+    <description><![CDATA[<p>Клема швидкого монтажу PROLUM (RT-418А)</p>]]></description>
+   </offer>
+   <offer available="true">
+    <url>https://www.prolum.com.ua/klema-shvydkoho-montazhu-prolum-rt-413w/</url>
+    <price>8.28</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>1333</categoryId>
+    <picture>https://www.prolum.com.ua/content/images/32/klema-shvydkoho-montazhu-prolum-rt-413w-74552984344472_+ead9a82733.png</picture>
+    <vendorCode>503093</vendorCode>
+    <vendor>PROLUM</vendor>
+    <name><![CDATA[Клема швидкого монтажу PROLUM (RT-413W)]]></name>
+    <description><![CDATA[<p>Клема швидкого монтажу PROLUM (RT-413W)</p>]]></description>
+   </offer>
+   <offer available="true">
+    <url>https://www.prolum.com.ua/klema-shvydkoho-montazhu-prolum-rt-414w/</url>
+    <price>9.94</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>1333</categoryId>
+    <picture>https://www.prolum.com.ua/content/images/33/klema-shvydkoho-montazhu-prolum-rt-414w-93779917452951_+7b987efe4a.png</picture>
+    <vendorCode>503094</vendorCode>
+    <vendor>PROLUM</vendor>
+    <name><![CDATA[Клема швидкого монтажу PROLUM (RT-414W)]]></name>
+    <description><![CDATA[<p>Клема швидкого монтажу PROLUM (RT-414W)</p>]]></description>
+   </offer>
+   <offer available="true">
+    <url>https://www.prolum.com.ua/klema-shvydkoho-montazhu-prolum-rt-415w/</url>
+    <price>11.59</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>1333</categoryId>
+    <picture>https://www.prolum.com.ua/content/images/34/klema-shvydkoho-montazhu-prolum-rt-415w-77816316910417_+6da0cbe261.png</picture>
+    <vendorCode>503095</vendorCode>
+    <vendor>PROLUM</vendor>
+    <name><![CDATA[Клема швидкого монтажу PROLUM (RT-415W)]]></name>
+    <description><![CDATA[<p>Клема швидкого монтажу PROLUM (RT-415W)</p>]]></description>
+   </offer>
+   <offer available="true">
+    <url>https://www.prolum.com.ua/klema-shvydkoho-montazhu-prolum-rt-418w/</url>
+    <price>22.08</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>1333</categoryId>
+    <picture>https://www.prolum.com.ua/content/images/35/klema-shvydkoho-montazhu-prolum-rt-418w-17459525231164_+5d0240eb3c.png</picture>
+    <vendorCode>503096</vendorCode>
+    <vendor>PROLUM</vendor>
+    <name><![CDATA[Клема швидкого монтажу PROLUM (RT-418W)]]></name>
+    <description><![CDATA[<p>Клема швидкого монтажу PROLUM (RT-418W)</p>]]></description>
    </offer>
    <offer available="">
     <url>https://www.prolum.com.ua/svetodiodnaya-led-lenta-gibkaya-12v-prolum-ip20-2835120-light/</url>
@@ -19240,110 +19344,6 @@ NMS1217-Plus.</p>
     <vendor>PROLUM</vendor>
     <name><![CDATA[Світлодіодний модуль PROLUM Т1, SMD2835, 1LED, 12V, 0,36W, IP66, С линзой, Білий]]></name>
     <description><![CDATA[<p>Светодиодный модуль (кластер) PROLUM T1, SMD2835, 1LED, 12V, З лінзою - (Білий 5500-6000К)&nbsp;являє собою електромонтажну плату зі встановленими на ній одним або декількома світлодіодами. Плата разом з контактними проводами надійно загерметизована в пластиковому корпусі.</p>    <p>Світлодіодні модулі відрізняються невеликим енергоспоживанням, високою якістю освітлення. Його можливо використовувати в приміщеннях з високою вологістю, вологозахист відповідає стандарту IP67.</p>    <h2>Основне застосування модуля PROLUM T1, SMD2835, 1LED, 12V З лінзою - (Білий 5500-6000К):</h2>    <ul>   <li>При створенні зовнішньої реклами</li>   <li>Створення освітлення декоративного типу</li>   <li>Підсвічування фасаду меблів</li>   <li>Підсвічування різних предметів інтер&#39;єру</li>  </ul>    <h2>Переваги модуля PROLUM T1, SMD3030, 1LED, 12V З лінзою - (Білий 5500-6000К):</h2>    <ul>   <li style="margin-bottom:.0001pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span lang="UK" style="font-size:12.0pt"><span new="" roman="" style="font-family:" times=""><span style="color:#212121">Відповідність стандартам ROHs, CE</span></span></span></span></span></li>   <li style="margin-bottom:.0001pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span lang="UK" style="font-size:12.0pt"><span new="" roman="" style="font-family:" times=""><span style="color:#212121">Захист від короткого замикання</span></span></span></span></span></li>   <li style="margin-bottom:.0001pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span lang="UK" style="font-size:12.0pt"><span new="" roman="" style="font-family:" times=""><span style="color:#212121">Захист від перевантаження</span></span></span></span></span></li>   <li style="margin-bottom:.0001pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span lang="UK" style="font-size:12.0pt"><span new="" roman="" style="font-family:" times=""><span style="color:#212121">Контроль на всіх стадіях виробництва</span></span></span></span></span></li>   <li style="margin-bottom:.0001pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span lang="UK" style="font-size:12.0pt"><span new="" roman="" style="font-family:" times=""><span style="color:#212121">Довгий термін експлуатації</span></span></span></span></span></li>   <li style="margin-bottom:.0001pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span lang="UK" style="font-size:12.0pt"><span new="" roman="" style="font-family:" times=""><span style="color:#212121">Доступна вартість</span></span></span></span></span></li>  </ul>]]></description>
-   </offer>
-   <offer available="">
-    <url>https://www.prolum.com.ua/korobka-rozpodilna-hermetychna-ip68-prolum-b-2068-2t-l/</url>
-    <price>347.76</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>1333</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/24/korobka-rozpodilna-hermetychna-ip68-prolum-b-2068-2t-l-28188662655301_+1b6f6a4c21.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/24/korobka-rozpodilna-hermetychna-ip68-prolum-b-2068-2t-l-83526285872802_+c60764a003.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/24/korobka-rozpodilna-hermetychna-ip68-prolum-b-2068-2t-l-26244003808069_+93e4381e5b.jpg</picture>
-    <vendorCode>503100</vendorCode>
-    <vendor>PROLUM</vendor>
-    <name><![CDATA[Коробка розподільна герметична IP68; PROLUM  (B-2068-2T-L)]]></name>
-    <description><![CDATA[<p>Коробка розподільна герметична IP68; PROLUM &nbsp;(B-2068-2T-L)</p>]]></description>
-   </offer>
-   <offer available="">
-    <url>https://www.prolum.com.ua/klema-shvydkoho-montazhu-prolum-rt-223-4p/</url>
-    <price>7.73</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>1333</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/25/klema-shvydkoho-montazhu-prolum-rt-223-4p-80002471175958_+db647f58df.png</picture>
-    <picture>https://www.prolum.com.ua/content/images/25/klema-shvydkoho-montazhu-prolum-rt-223-4p-22798792769446_+ed54a9aed4.png</picture>
-    <vendorCode>503099</vendorCode>
-    <vendor>PROLUM</vendor>
-    <name><![CDATA[Клема швидкого монтажу PROLUM (RT-223-4P)]]></name>
-    <description><![CDATA[<p>Клема швидкого монтажу PROLUM (RT-223-2P)</p>]]></description>
-   </offer>
-   <offer available="">
-    <url>https://www.prolum.com.ua/klema-shvydkoho-montazhu-prolum-rt-223-3p/</url>
-    <price>7.73</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>1333</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/26/klema-shvydkoho-montazhu-prolum-rt-223-3p-91295538874020_+e57ea20123.png</picture>
-    <picture>https://www.prolum.com.ua/content/images/26/klema-shvydkoho-montazhu-prolum-rt-223-3p-45648841742504_+491b4a421c.png</picture>
-    <vendorCode>503098</vendorCode>
-    <vendor>PROLUM</vendor>
-    <name><![CDATA[Клема швидкого монтажу PROLUM (RT-223-3P)]]></name>
-    <description><![CDATA[<p>Клема швидкого монтажу PROLUM (RT-223-2P)</p>]]></description>
-   </offer>
-   <offer available="">
-    <url>https://www.prolum.com.ua/klema-shvydkoho-montazhu-prolum-rt-223-2p/</url>
-    <price>7.73</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>1333</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/27/klema-shvydkoho-montazhu-prolum-rt-223-2p-20403467906058_+5d7f14c80d.png</picture>
-    <picture>https://www.prolum.com.ua/content/images/27/klema-shvydkoho-montazhu-prolum-rt-223-2p-95335104489711_+819861f7b8.png</picture>
-    <vendorCode>503097</vendorCode>
-    <vendor>PROLUM</vendor>
-    <name><![CDATA[Клема швидкого монтажу PROLUM (RT-223-2P)]]></name>
-    <description><![CDATA[<p>Клема швидкого монтажу PROLUM (RT-223-2P)</p>]]></description>
-   </offer>
-   <offer available="">
-    <url>https://www.prolum.com.ua/klema-shvydkoho-montazhu-prolum-rt-418a/</url>
-    <price>4.97</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>1333</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/28/klema-shvydkoho-montazhu-prolum-rt-418a-48790892818860_+8ee165ee3e.png</picture>
-    <vendorCode>503092</vendorCode>
-    <vendor>PROLUM</vendor>
-    <name><![CDATA[Клема швидкого монтажу PROLUM (RT-418А)]]></name>
-    <description><![CDATA[<p>Клема швидкого монтажу PROLUM (RT-418А)</p>]]></description>
-   </offer>
-   <offer available="">
-    <url>https://www.prolum.com.ua/klema-shvydkoho-montazhu-prolum-rt-413w/</url>
-    <price>4.97</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>1333</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/32/klema-shvydkoho-montazhu-prolum-rt-413w-74552984344472_+ead9a82733.png</picture>
-    <vendorCode>503093</vendorCode>
-    <vendor>PROLUM</vendor>
-    <name><![CDATA[Клема швидкого монтажу PROLUM (RT-413W)]]></name>
-    <description><![CDATA[<p>Клема швидкого монтажу PROLUM (RT-413W)</p>]]></description>
-   </offer>
-   <offer available="">
-    <url>https://www.prolum.com.ua/klema-shvydkoho-montazhu-prolum-rt-414w/</url>
-    <price>4.97</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>1333</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/33/klema-shvydkoho-montazhu-prolum-rt-414w-93779917452951_+7b987efe4a.png</picture>
-    <vendorCode>503094</vendorCode>
-    <vendor>PROLUM</vendor>
-    <name><![CDATA[Клема швидкого монтажу PROLUM (RT-414W)]]></name>
-    <description><![CDATA[<p>Клема швидкого монтажу PROLUM (RT-414W)</p>]]></description>
-   </offer>
-   <offer available="">
-    <url>https://www.prolum.com.ua/klema-shvydkoho-montazhu-prolum-rt-415w/</url>
-    <price>4.97</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>1333</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/34/klema-shvydkoho-montazhu-prolum-rt-415w-77816316910417_+6da0cbe261.png</picture>
-    <vendorCode>503095</vendorCode>
-    <vendor>PROLUM</vendor>
-    <name><![CDATA[Клема швидкого монтажу PROLUM (RT-415W)]]></name>
-    <description><![CDATA[<p>Клема швидкого монтажу PROLUM (RT-415W)</p>]]></description>
-   </offer>
-   <offer available="">
-    <url>https://www.prolum.com.ua/klema-shvydkoho-montazhu-prolum-rt-418w/</url>
-    <price>4.97</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>1333</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/35/klema-shvydkoho-montazhu-prolum-rt-418w-17459525231164_+5d0240eb3c.png</picture>
-    <vendorCode>503096</vendorCode>
-    <vendor>PROLUM</vendor>
-    <name><![CDATA[Клема швидкого монтажу PROLUM (RT-418W)]]></name>
-    <description><![CDATA[<p>Клема швидкого монтажу PROLUM (RT-418W)</p>]]></description>
    </offer>
    <offer available="">
     <url>https://www.prolum.com.ua/svitlodiodnyi-neon-prolum-6x12-ip68-12v/5835/</url>
