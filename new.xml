@@ -6881,7 +6881,7 @@ KOZUS-CR, GIZA, LIPOD, LOKOM, LARKO, OPAC-30, KOZEL, KOZUS.</p>]]></description_
     <description><![CDATA[<p>Сенсорна панель DEYA WiFi та RF DALI Master 5-в-1&nbsp;<strong>TD-W(white)</strong></p>    <ul>   <li>Сучасний інтерфейс керування освітленням із підтримкою WiFi (Tuya), RF 2.4 GHz, та DALI-протоколу.</li>   <li>Об&rsquo;єднує керування одним кольором, температурою, RGB, RGBW, RGBCCT у єдиному корпусі.</li>   <li>Інтуїтивні сенсорні кнопки, TFT-дисплей 1.54&Prime; (240&times;240) дозволяють оперативно змінювати кольорові сцени, яскравість та режими.</li>   <li>Підтримує DT6, DT8-TC, DT8-RGB, DT8-RGBW, DT8-RGB+CCT, з можливістю адресації, групового керування та збереження 4 сцен.</li>  </ul>    <p><strong>Переваги:</strong></p>    <ul>   <li>5-в-1 рішення: підтримка всіх популярних кольорових режимів (від одного кольору до RGBCCT);</li>   <li>LED-дисплей зі зрозумілим меню та сенсорними кнопками;</li>   <li>Управління через мобільний додаток Tuya, RF-пульти або дотиком;</li>   <li>Гнучке адресування і робота у групах, збереження сцен;</li>  </ul>    <p><strong>Технічні характеристики:</strong></p>    <ul>   <li>Живлення: 100&ndash;240 VAC;</li>   <li>Струм спокою: &le; 2 мА;</li>   <li>Сигнал управління: WiFi + RF 2.4 GHz + сенсорні клавіші;</li>   <li>Дальність RF: 30 метрів (без перешкод);</li>   <li>Кількість рівнів димування: 255 (0&ndash;100%);</li>   <li>Робоча температура: -20&hellip;+50 &deg;C, корпус до +65 &deg;C;</li>   <li>Розміри: 112&times;112&times;50 мм; IP20; вага 230 грамів;</li>   <li>Сертифікація: CE, RoHS, DALI-2 (IEC 62386-101, 102, 207, 208, 209);</li>   <li>Стандарти EMC/радіо: EN 55015, EN 61547, ETSI EN 300 440, ETSI EN 300 328;</li>  </ul>    <p>Гарантія: 5 років.</p>]]></description>
     <description_ru><![CDATA[<p>Сенсорная панель DEYA WiFi и RF DALI Master 5-в-1 <strong>TD-W(white)</strong></p>    <ul>   <li>Современный интерфейс управления освещением с поддержкой WiFi (Tuya), RF 2.4 GHz и DALI-протокола.</li>   <li>Объединяет управление одним цветом, температурой, RGB, RGBW, RGBCCT в едином корпусе.</li>   <li>Интуитивные сенсорные кнопки, TFT-дисплей 1.54&rdquo; (240x240) позволяют оперативно изменять цветовые сцены, яркость и режимы.</li>   <li>Поддерживает DT6, DT8-TC, DT8-RGB, DT8-RGBW, DT8-RGB+CCT, с возможностью адресации, группового управления и сохранения 4 сцен.</li>  </ul>    <p><strong>Достоинства:</strong></p>    <ul>   <li>5-в-1 решение: поддержка всех популярных цветовых режимов (от одного цвета до RGBCCT);</li>   <li>LED-дисплей с понятным меню и сенсорными кнопками;</li>   <li>Управление через мобильное приложение Tuya, RF-пульты или прикосновением;</li>   <li>Гибкая адресация и работа в группах, сохранение сцен;</li>  </ul>    <p><strong>Технические характеристики:</strong></p>    <ul>   <li>Питание: 100-240 VAC;</li>   <li>Ток покоя: &le; 2 мА;</li>   <li>Сигнал управления: WiFi+RF 2.4 GHz+ сенсорные клавиши;</li>   <li>Дальность RF: 30 метров (без помех);</li>   <li>Количество уровней дымирования: 255 (0-100%);</li>   <li>Рабочая температура: -20&hellip;+50 &deg;C, корпус до +65 &deg;C;</li>   <li>Размеры: 112&times;112&times;50 мм; IP20; вес 230 граммов;</li>   <li>Сертификация: CE, RoHS, DALI-2 (IEC 62386-101, 102, 207, 208, 209);</li>   <li>Стандарты EMC/радио: EN 55015, EN 61547, ETSI EN 300440, ETSI EN 300328;</li>  </ul>    <p>Гарантия: 5 лет.</p>]]></description_ru>
    </offer>
-   <offer available="true">
+   <offer available="">
     <url>https://artled.com.ua/led-kontroler-deya-12-48-vdc-15a1ch-wifi-rf-cv-dlia-tuya-app-v1-lwt/</url>
     <price>1776.0</price>
     <currencyId>UAH</currencyId>
@@ -13901,19 +13901,6 @@ NMS1217-Plus.</p>
     <description><![CDATA[<p>Светодиодный модуль (кластер) PROLUM T1, SMD2835, 3LED, 12V, З лінзою - являє собою електромонтажну плату зі встановленими на ній одним або декількома світлодіодами. Плата разом з контактними проводами надійно загерметизована в пластиковому корпусі.</p>    <p>Світлодіодні модулі відрізняються невеликим енергоспоживанням, високою якістю освітлення. Його можливо використовувати в приміщеннях з високою вологістю, вологозахист відповідає стандарту IP67.</p>    <h2>Основне застосування модуля PROLUM T1, SMD2835, 3LED, 12V З лінзою -&nbsp;</h2>    <ul>   <li>При створенні зовнішньої реклами</li>   <li>Створення освітлення декоративного типу</li>   <li>Підсвічування фасаду меблів</li>   <li>Підсвічування різних предметів інтер&#39;єру</li>  </ul>    <h2>Переваги модуля PROLUM T1, SMD2835, 3LED, 12V З лінзою - (Білий 5500-6000К):</h2>    <ul>   <li style="margin-bottom:.0001pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span lang="UK" style="font-size:12.0pt"><span new="" roman="" style="font-family:" times=""><span style="color:#212121">Відповідність стандартам ROHs, CE</span></span></span></span></span></li>   <li style="margin-bottom:.0001pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span lang="UK" style="font-size:12.0pt"><span new="" roman="" style="font-family:" times=""><span style="color:#212121">Захист від короткого замикання</span></span></span></span></span></li>   <li style="margin-bottom:.0001pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span lang="UK" style="font-size:12.0pt"><span new="" roman="" style="font-family:" times=""><span style="color:#212121">Захист від перевантаження</span></span></span></span></span></li>   <li style="margin-bottom:.0001pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span lang="UK" style="font-size:12.0pt"><span new="" roman="" style="font-family:" times=""><span style="color:#212121">Контроль на всіх стадіях виробництва</span></span></span></span></span></li>   <li style="margin-bottom:.0001pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span lang="UK" style="font-size:12.0pt"><span new="" roman="" style="font-family:" times=""><span style="color:#212121">Довгий термін експлуатації</span></span></span></span></span></li>   <li style="margin-bottom:.0001pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span lang="UK" style="font-size:12.0pt"><span new="" roman="" style="font-family:" times=""><span style="color:#212121">Доступна вартість</span></span></span></span></span></li>  </ul>]]></description>
    </offer>
    <offer available="true">
-    <url>https://www.prolum.com.ua/svitlodiodnyi-modul-prolum-t1-smd3030-1led-12v/</url>
-    <price>23.18</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>1350</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/10/svetodiodnyy-modul-prolum-t1-smd3030-1led-12v-15w-ip66-s-linzoy-belyy-34351813084511_+e89d2e2231.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/10/svetodiodnyy-modul-prolum-t1-smd3030-1led-12v-15w-ip66-s-linzoy-belyy-92289936115251_+ecb1736ff0.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/10/svetodiodnyy-modul-prolum-t1-smd3030-1led-12v-15w-ip66-s-linzoy-belyy-91496097290378_+b776196a20.jpg</picture>
-    <vendorCode>321013</vendorCode>
-    <vendor>PROLUM</vendor>
-    <name><![CDATA[Світлодіодний модуль PROLUM Т1, SMD3030, 1LED, 12V, 1,5W, IP66, З лінзою, Білий]]></name>
-    <description><![CDATA[<p>Светодиодный модуль (кластер) PROLUM T1, SMD3030, 1LED, 12V, З лінзою - (Білий 5500-6000К)&nbsp;являє собою електромонтажну плату зі встановленими на ній одним або декількома світлодіодами. Плата разом з контактними проводами надійно загерметизована в пластиковому корпусі.</p>    <p>Світлодіодні модулі відрізняються невеликим енергоспоживанням, високою якістю освітлення. Його можливо використовувати в приміщеннях з високою вологістю, вологозахист відповідає стандарту IP67.</p>    <h2>Основне застосування модуля PROLUM T1, SMD3030, 1LED, 12V З лінзою - (Білий 5500-6000К):</h2>    <ul>   <li>При створенні зовнішньої реклами</li>   <li>Створення освітлення декоративного типу</li>   <li>Підсвічування фасаду меблів</li>   <li>Підсвічування різних предметів інтер&#39;єру</li>  </ul>    <h2>Переваги модуля PROLUM T1, SMD3030, 1LED, 12V З лінзою - (Білий 5500-6000К):</h2>    <ul>   <li style="margin-bottom:.0001pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span lang="UK" style="font-size:12.0pt"><span new="" roman="" style="font-family:" times=""><span style="color:#212121">Відповідність стандартам ROHs, CE</span></span></span></span></span></li>   <li style="margin-bottom:.0001pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span lang="UK" style="font-size:12.0pt"><span new="" roman="" style="font-family:" times=""><span style="color:#212121">Захист від короткого замикання</span></span></span></span></span></li>   <li style="margin-bottom:.0001pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span lang="UK" style="font-size:12.0pt"><span new="" roman="" style="font-family:" times=""><span style="color:#212121">Захист від перевантаження</span></span></span></span></span></li>   <li style="margin-bottom:.0001pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span lang="UK" style="font-size:12.0pt"><span new="" roman="" style="font-family:" times=""><span style="color:#212121">Контроль на всіх стадіях виробництва</span></span></span></span></span></li>   <li style="margin-bottom:.0001pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span lang="UK" style="font-size:12.0pt"><span new="" roman="" style="font-family:" times=""><span style="color:#212121">Довгий термін експлуатації</span></span></span></span></span></li>   <li style="margin-bottom:.0001pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span lang="UK" style="font-size:12.0pt"><span new="" roman="" style="font-family:" times=""><span style="color:#212121">Доступна вартість</span></span></span></span></span></li>  </ul>]]></description>
-   </offer>
-   <offer available="true">
     <url>https://www.prolum.com.ua/svitlodiodnyi-modul-prolum-t1-smd3030-1led-12v/5210/</url>
     <price>49.68</price>
     <currencyId>UAH</currencyId>
@@ -14236,19 +14223,6 @@ NMS1217-Plus.</p>
     <vendorCode>320131</vendorCode>
     <vendor>PROLUM</vendor>
     <name><![CDATA[Світлодіодна LED стрічка PROLUM™ 12V; IP20; 2835\120; 6ММ; 50M; S-TYPE; Series "S", Блакитний Лід]]></name>
-    <description><![CDATA[<p>LED стрічка PROLUM&trade; 12V; IP20; 2835 120; S-TYPE; Series &quot;S&quot;</p>]]></description>
-   </offer>
-   <offer available="true">
-    <url>https://www.prolum.com.ua/svitlodiodna-led-strichka-prolum-12v-ip20-2835120-6mm-50m-s-type-series-s/5286/</url>
-    <price>60.72</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>1288</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/37/svitlodiodna-led-strichka-prolum-12v-ip20-2835120-6mm-50m-s-type-series-s5286-12554034051588_+e5abbfc7cd.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/37/svitlodiodna-led-strichka-prolum-12v-ip20-2835120-6mm-50m-s-type-series-s5286-62308991564752_+00ed5ea905.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/37/svitlodiodna-led-strichka-prolum-12v-ip20-2835120-6mm-50m-s-type-series-s5286-55566964381687_+4fe65ac2b3.jpg</picture>
-    <vendorCode>320132</vendorCode>
-    <vendor>PROLUM</vendor>
-    <name><![CDATA[Світлодіодна LED стрічка PROLUM™ 12V; IP20; 2835\120; 6ММ; 50M; S-TYPE; Series "S", Червоний]]></name>
     <description><![CDATA[<p>LED стрічка PROLUM&trade; 12V; IP20; 2835 120; S-TYPE; Series &quot;S&quot;</p>]]></description>
    </offer>
    <offer available="true">
@@ -15737,19 +15711,6 @@ NMS1217-Plus.</p>
     <vendorCode>350075</vendorCode>
     <vendor>PROLUM</vendor>
     <name><![CDATA[Світлодіодна LED стрічка PROLUM™ 24V; IP20; 2835\120; 6ММ; S-TYPE; Series "S", Холодний-білий (9000-10000К)]]></name>
-    <description><![CDATA[<p>LED стрічка PROLUM&trade; 24V; IP20; 2835 120; S-TYPE; Series &quot;S&quot;</p>]]></description>
-   </offer>
-   <offer available="true">
-    <url>https://www.prolum.com.ua/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-6mm-50m-s-type-series-s/5708/</url>
-    <price>71.76</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>1288</categoryId>
-    <picture>https://www.prolum.com.ua/content/images/9/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-6mm-50m-s-type-series-s5708-90577070053315_+92ca9357e0.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/9/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-6mm-50m-s-type-series-s5708-19166013293002_+7a41d4a731.jpg</picture>
-    <picture>https://www.prolum.com.ua/content/images/9/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-6mm-50m-s-type-series-s5708-35615528314476_+af6df9dccb.jpg</picture>
-    <vendorCode>350076</vendorCode>
-    <vendor>PROLUM</vendor>
-    <name><![CDATA[Світлодіодна LED стрічка PROLUM™ 24V; IP20; 2835\120; 6ММ; 50M; S-TYPE; Series "S", Холодний-білий (9000-10000К)]]></name>
     <description><![CDATA[<p>LED стрічка PROLUM&trade; 24V; IP20; 2835 120; S-TYPE; Series &quot;S&quot;</p>]]></description>
    </offer>
    <offer available="true">
@@ -19182,6 +19143,19 @@ NMS1217-Plus.</p>
     <description><![CDATA[<p>LED стрічка PROLUM&trade; 24V; IP20; 2835 120; S-TYPE; Series &quot;S&quot;</p>]]></description>
    </offer>
    <offer available="">
+    <url>https://www.prolum.com.ua/svitlodiodna-led-strichka-prolum-12v-ip20-2835120-6mm-50m-s-type-series-s/5286/</url>
+    <price>60.72</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>1288</categoryId>
+    <picture>https://www.prolum.com.ua/content/images/37/svitlodiodna-led-strichka-prolum-12v-ip20-2835120-6mm-50m-s-type-series-s5286-12554034051588_+e5abbfc7cd.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/37/svitlodiodna-led-strichka-prolum-12v-ip20-2835120-6mm-50m-s-type-series-s5286-62308991564752_+00ed5ea905.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/37/svitlodiodna-led-strichka-prolum-12v-ip20-2835120-6mm-50m-s-type-series-s5286-55566964381687_+4fe65ac2b3.jpg</picture>
+    <vendorCode>320132</vendorCode>
+    <vendor>PROLUM</vendor>
+    <name><![CDATA[Світлодіодна LED стрічка PROLUM™ 12V; IP20; 2835\120; 6ММ; 50M; S-TYPE; Series "S", Червоний]]></name>
+    <description><![CDATA[<p>LED стрічка PROLUM&trade; 12V; IP20; 2835 120; S-TYPE; Series &quot;S&quot;</p>]]></description>
+   </offer>
+   <offer available="">
     <url>https://www.prolum.com.ua/blok-zhyvlennia-prolum-24v-ut/</url>
     <categoryId>1332</categoryId>
     <picture>https://www.prolum.com.ua/content/images/24/blok-zhyvlennia-prolum-24v-ut-72280856866231_+5bb958a9ae.jpg</picture>
@@ -19322,6 +19296,19 @@ NMS1217-Plus.</p>
     <vendor>PROLUM</vendor>
     <name><![CDATA[Профіль PROLUM для неону 8x16 2м Чорний]]></name>
     <description><![CDATA[<p>Профіль PROLUM&trade; для неону 8x16, 2м</p>    <p>Комплектуючі окремо від основного товару реалізуються <strong> за погодженням <!-- strong--> з менеджером.&nbsp;<!-- p--></strong></p>]]></description>
+   </offer>
+   <offer available="">
+    <url>https://www.prolum.com.ua/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-6mm-50m-s-type-series-s/5708/</url>
+    <price>71.76</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>1288</categoryId>
+    <picture>https://www.prolum.com.ua/content/images/9/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-6mm-50m-s-type-series-s5708-90577070053315_+92ca9357e0.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/9/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-6mm-50m-s-type-series-s5708-19166013293002_+7a41d4a731.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/9/svitlodiodna-led-strichka-prolum-24v-ip20-2835120-6mm-50m-s-type-series-s5708-35615528314476_+af6df9dccb.jpg</picture>
+    <vendorCode>350076</vendorCode>
+    <vendor>PROLUM</vendor>
+    <name><![CDATA[Світлодіодна LED стрічка PROLUM™ 24V; IP20; 2835\120; 6ММ; 50M; S-TYPE; Series "S", Холодний-білий (9000-10000К)]]></name>
+    <description><![CDATA[<p>LED стрічка PROLUM&trade; 24V; IP20; 2835 120; S-TYPE; Series &quot;S&quot;</p>]]></description>
    </offer>
    <offer available="">
     <url>https://www.prolum.com.ua/zahlushka-prolum-dlia-neonu-gl-n-8x16/</url>
@@ -20584,6 +20571,19 @@ NMS1217-Plus.</p>
     <vendor>Mean Well</vendor>
     <name><![CDATA[Блок живлення Mean Well LRS-600-48 (600 W; 12,5A; 48V; IP20) Series "LRS"]]></name>
     <description><![CDATA[<p>Блок живлення Mean Well - це незамінний елемент системи світлодіодного освітлення, який використовується в якості джерела стабільного струму і оберігає світлодіоди від перепадів напруги в мережі.</p>    <p>Широкий діапазон потужностей дозволяє Вам вибрати блок живлення для світлодіодної стрічки відповідно до робочих характеристиками і довжиною світлодіодного підсвічування. Можливість використовувати в приміщенні (Негерметичні IP20), або на вулиці (Герметичні IP67).</p>    <h2>Переваги блоків живлення Mean Well :</h2>    <ul>   <li>Відповідність стандартам ROHs, CE</li>   <li>Захист від короткого замикання</li>   <li>Захист від перевантаження</li>   <li>Контроль на всіх стадіях виробництва</li>   <li>Довгий термін експлуатації</li>  </ul>]]></description>
+   </offer>
+   <offer available="true">
+    <url>https://www.prolum.com.ua/svitlodiodnyi-modul-prolum-t1-smd3030-1led-12v/</url>
+    <price>23.18</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>1350</categoryId>
+    <picture>https://www.prolum.com.ua/content/images/10/svetodiodnyy-modul-prolum-t1-smd3030-1led-12v-15w-ip66-s-linzoy-belyy-34351813084511_+e89d2e2231.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/10/svetodiodnyy-modul-prolum-t1-smd3030-1led-12v-15w-ip66-s-linzoy-belyy-92289936115251_+ecb1736ff0.jpg</picture>
+    <picture>https://www.prolum.com.ua/content/images/10/svetodiodnyy-modul-prolum-t1-smd3030-1led-12v-15w-ip66-s-linzoy-belyy-91496097290378_+b776196a20.jpg</picture>
+    <vendorCode>321013</vendorCode>
+    <vendor>PROLUM</vendor>
+    <name><![CDATA[Світлодіодний модуль PROLUM Т1, SMD3030, 1LED, 12V, 1,5W, IP66, З лінзою, Білий]]></name>
+    <description><![CDATA[<p>Светодиодный модуль (кластер) PROLUM T1, SMD3030, 1LED, 12V, З лінзою - (Білий 5500-6000К)&nbsp;являє собою електромонтажну плату зі встановленими на ній одним або декількома світлодіодами. Плата разом з контактними проводами надійно загерметизована в пластиковому корпусі.</p>    <p>Світлодіодні модулі відрізняються невеликим енергоспоживанням, високою якістю освітлення. Його можливо використовувати в приміщеннях з високою вологістю, вологозахист відповідає стандарту IP67.</p>    <h2>Основне застосування модуля PROLUM T1, SMD3030, 1LED, 12V З лінзою - (Білий 5500-6000К):</h2>    <ul>   <li>При створенні зовнішньої реклами</li>   <li>Створення освітлення декоративного типу</li>   <li>Підсвічування фасаду меблів</li>   <li>Підсвічування різних предметів інтер&#39;єру</li>  </ul>    <h2>Переваги модуля PROLUM T1, SMD3030, 1LED, 12V З лінзою - (Білий 5500-6000К):</h2>    <ul>   <li style="margin-bottom:.0001pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span lang="UK" style="font-size:12.0pt"><span new="" roman="" style="font-family:" times=""><span style="color:#212121">Відповідність стандартам ROHs, CE</span></span></span></span></span></li>   <li style="margin-bottom:.0001pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span lang="UK" style="font-size:12.0pt"><span new="" roman="" style="font-family:" times=""><span style="color:#212121">Захист від короткого замикання</span></span></span></span></span></li>   <li style="margin-bottom:.0001pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span lang="UK" style="font-size:12.0pt"><span new="" roman="" style="font-family:" times=""><span style="color:#212121">Захист від перевантаження</span></span></span></span></span></li>   <li style="margin-bottom:.0001pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span lang="UK" style="font-size:12.0pt"><span new="" roman="" style="font-family:" times=""><span style="color:#212121">Контроль на всіх стадіях виробництва</span></span></span></span></span></li>   <li style="margin-bottom:.0001pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span lang="UK" style="font-size:12.0pt"><span new="" roman="" style="font-family:" times=""><span style="color:#212121">Довгий термін експлуатації</span></span></span></span></span></li>   <li style="margin-bottom:.0001pt"><span style="line-height:normal"><span style="tab-stops:list 36.0pt"><span lang="UK" style="font-size:12.0pt"><span new="" roman="" style="font-family:" times=""><span style="color:#212121">Доступна вартість</span></span></span></span></span></li>  </ul>]]></description>
    </offer>
   </offers>
  </shop>
