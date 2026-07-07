@@ -1290,7 +1290,7 @@
 
 <p>Гарантия: 3 года.</p>]]></description_ru>
    </offer>
-   <offer available="">
+   <offer available="true">
     <url>https://svetodiody.com.ua/df8-48v-10mm-v1-ww/</url>
     <price>266.4</price>
     <currencyId>UAH</currencyId>
@@ -1373,7 +1373,7 @@
 
 <p>Гарантия: 7 лет.</p>]]></description_ru>
    </offer>
-   <offer available="">
+   <offer available="true">
     <url>https://svetodiody.com.ua/df8-48v-10mm-v1-nw/</url>
     <price>266.4</price>
     <currencyId>UAH</currencyId>
@@ -1456,7 +1456,7 @@
 
 <p>Гарантия: 7 лет.</p>]]></description_ru>
    </offer>
-   <offer available="">
+   <offer available="true">
     <url>https://svetodiody.com.ua/df5-24v-10mm-sw/</url>
     <price>355.2</price>
     <currencyId>UAH</currencyId>
@@ -1537,7 +1537,7 @@
 
 <p>Гарантія: 5 років.</p>]]></description_ru>
    </offer>
-   <offer available="">
+   <offer available="true">
     <url>https://svetodiody.com.ua/dj120-24v-10mm-rgbww/</url>
     <price>266.4</price>
     <currencyId>UAH</currencyId>
@@ -1615,7 +1615,7 @@
 
 <p>Гарантия: 3 года.</p>]]></description_ru>
    </offer>
-   <offer available="">
+   <offer available="true">
     <url>https://svetodiody.com.ua/dj120-24v-10mm-rgbnw/</url>
     <price>266.4</price>
     <currencyId>UAH</currencyId>
@@ -3667,20 +3667,20 @@
     <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-45401740102103_+128358071b.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-82256030894358_+8b7ec66046.png</picture>
     <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-87302956992727_+58f98130ef.jpg</picture>
-    <picture>https://svetodiody.com.ua/content/images/12/29986476003198_+671fdbe610.jpeg</picture>
     <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-38061099702597_+42f713aa8b.jpg</picture>
+    <picture>https://svetodiody.com.ua/content/images/12/29986476003198_+671fdbe610.jpeg</picture>
     <picture>https://svetodiody.com.ua/content/images/12/67104732092184_+940b9aef56.jpeg</picture>
     <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-63171266161874_+96b4dca49c.jpg</picture>
-    <picture>https://svetodiody.com.ua/content/images/12/51610043571921_+7a6c1f5f7d.jpeg</picture>
     <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-72260939257859_+0e2d9f56e5.jpg</picture>
-    <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-77891050334831_+bc1be90035.jpg</picture>
+    <picture>https://svetodiody.com.ua/content/images/12/51610043571921_+7a6c1f5f7d.jpeg</picture>
     <picture>https://svetodiody.com.ua/content/images/12/71983757978313_+abb2af8fdb.jpeg</picture>
-    <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-91848571617026_+b6d23a4941.jpg</picture>
+    <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-77891050334831_+bc1be90035.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/12/83497707958832_+24bf9c7dd4.jpeg</picture>
-    <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-91650399334947_+9df13c4ed1.jpg</picture>
+    <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-91848571617026_+b6d23a4941.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/12/72688834400599_+5b846a039f.jpeg</picture>
-    <picture>https://svetodiody.com.ua/content/images/12/24727533571653_+f82cf541eb.jpeg</picture>
+    <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-91650399334947_+9df13c4ed1.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-41520451281145_+9027aa0de0.jpg</picture>
+    <picture>https://svetodiody.com.ua/content/images/12/24727533571653_+f82cf541eb.jpeg</picture>
     <picture>https://svetodiody.com.ua/content/images/29/klus-kozel-b6454na-95287632300005_+caf499fa98.jpg</picture>
     <picture>https://svetodiody.com.ua/content/images/12/24531667381284_+884511fb05.jpeg</picture>
     <vendorCode>0640</vendorCode>
@@ -6881,7 +6881,7 @@ KOZUS-CR, GIZA, LIPOD, LOKOM, LARKO, OPAC-30, KOZEL, KOZUS.</p>]]></description_
     <description><![CDATA[<p>Сенсорна панель DEYA WiFi та RF DALI Master 5-в-1&nbsp;<strong>TD-W(white)</strong></p>    <ul>   <li>Сучасний інтерфейс керування освітленням із підтримкою WiFi (Tuya), RF 2.4 GHz, та DALI-протоколу.</li>   <li>Об&rsquo;єднує керування одним кольором, температурою, RGB, RGBW, RGBCCT у єдиному корпусі.</li>   <li>Інтуїтивні сенсорні кнопки, TFT-дисплей 1.54&Prime; (240&times;240) дозволяють оперативно змінювати кольорові сцени, яскравість та режими.</li>   <li>Підтримує DT6, DT8-TC, DT8-RGB, DT8-RGBW, DT8-RGB+CCT, з можливістю адресації, групового керування та збереження 4 сцен.</li>  </ul>    <p><strong>Переваги:</strong></p>    <ul>   <li>5-в-1 рішення: підтримка всіх популярних кольорових режимів (від одного кольору до RGBCCT);</li>   <li>LED-дисплей зі зрозумілим меню та сенсорними кнопками;</li>   <li>Управління через мобільний додаток Tuya, RF-пульти або дотиком;</li>   <li>Гнучке адресування і робота у групах, збереження сцен;</li>  </ul>    <p><strong>Технічні характеристики:</strong></p>    <ul>   <li>Живлення: 100&ndash;240 VAC;</li>   <li>Струм спокою: &le; 2 мА;</li>   <li>Сигнал управління: WiFi + RF 2.4 GHz + сенсорні клавіші;</li>   <li>Дальність RF: 30 метрів (без перешкод);</li>   <li>Кількість рівнів димування: 255 (0&ndash;100%);</li>   <li>Робоча температура: -20&hellip;+50 &deg;C, корпус до +65 &deg;C;</li>   <li>Розміри: 112&times;112&times;50 мм; IP20; вага 230 грамів;</li>   <li>Сертифікація: CE, RoHS, DALI-2 (IEC 62386-101, 102, 207, 208, 209);</li>   <li>Стандарти EMC/радіо: EN 55015, EN 61547, ETSI EN 300 440, ETSI EN 300 328;</li>  </ul>    <p>Гарантія: 5 років.</p>]]></description>
     <description_ru><![CDATA[<p>Сенсорная панель DEYA WiFi и RF DALI Master 5-в-1 <strong>TD-W(white)</strong></p>    <ul>   <li>Современный интерфейс управления освещением с поддержкой WiFi (Tuya), RF 2.4 GHz и DALI-протокола.</li>   <li>Объединяет управление одним цветом, температурой, RGB, RGBW, RGBCCT в едином корпусе.</li>   <li>Интуитивные сенсорные кнопки, TFT-дисплей 1.54&rdquo; (240x240) позволяют оперативно изменять цветовые сцены, яркость и режимы.</li>   <li>Поддерживает DT6, DT8-TC, DT8-RGB, DT8-RGBW, DT8-RGB+CCT, с возможностью адресации, группового управления и сохранения 4 сцен.</li>  </ul>    <p><strong>Достоинства:</strong></p>    <ul>   <li>5-в-1 решение: поддержка всех популярных цветовых режимов (от одного цвета до RGBCCT);</li>   <li>LED-дисплей с понятным меню и сенсорными кнопками;</li>   <li>Управление через мобильное приложение Tuya, RF-пульты или прикосновением;</li>   <li>Гибкая адресация и работа в группах, сохранение сцен;</li>  </ul>    <p><strong>Технические характеристики:</strong></p>    <ul>   <li>Питание: 100-240 VAC;</li>   <li>Ток покоя: &le; 2 мА;</li>   <li>Сигнал управления: WiFi+RF 2.4 GHz+ сенсорные клавиши;</li>   <li>Дальность RF: 30 метров (без помех);</li>   <li>Количество уровней дымирования: 255 (0-100%);</li>   <li>Рабочая температура: -20&hellip;+50 &deg;C, корпус до +65 &deg;C;</li>   <li>Размеры: 112&times;112&times;50 мм; IP20; вес 230 граммов;</li>   <li>Сертификация: CE, RoHS, DALI-2 (IEC 62386-101, 102, 207, 208, 209);</li>   <li>Стандарты EMC/радио: EN 55015, EN 61547, ETSI EN 300440, ETSI EN 300328;</li>  </ul>    <p>Гарантия: 5 лет.</p>]]></description_ru>
    </offer>
-   <offer available="">
+   <offer available="true">
     <url>https://artled.com.ua/led-kontroler-deya-12-48-vdc-15a1ch-wifi-rf-cv-dlia-tuya-app-v1-lwt/</url>
     <price>1776.0</price>
     <currencyId>UAH</currencyId>
@@ -10107,43 +10107,6 @@ L318*W318*H24.5 милиметров.<br />
     <description_ru><![CDATA[<p>Кислотный клей COLORS для фиксации без паечных коннекторов <strong>AS-PG-0005</strong></p><ul><li> Кислотный клей AS-PG-0005 предназначен для надежной фиксации без паечных коннекторов в светодиодных системах.</li><li> Обеспечивает прочное соединение и защищает контактные места от механических воздействий и окисления.</li><li> Благодаря удобной упаковке объемом 100 мл, клей легко наносится точечно, обеспечивая аккуратность и экономный расход материала.</li><li> Идеально подходит для моделей ACS1224, ACS1217, ACT1312.</li></ul><p> <strong>Характеристики:</strong></p><ul><li> Объем: 100 мл (точечное нанесение);</li><li> Тип: кислотный клей;</li><li> Назначение: фиксация без паечных коннекторов;</li><li> Совместимость: ACS1224/ACS1217/ACT1312;</li><li> Способ нанесения: точечно;</li><li> Цвет: прозрачный.</li></ul>]]></description_ru>
    </offer>
    <offer available="">
-    <url>https://svetodiody.com.ua/dw10eg-a/</url>
-    <price>44.4</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>1334</categoryId>
-    <picture>https://svetodiody.com.ua/content/images/47/dw10eg-a-55250848749479_+dc7dde1018.jpg</picture>
-    <vendorCode>2936</vendorCode>
-    <vendor>COLORS</vendor>
-    <name><![CDATA[Комплект силіконових закінчень COLORS для LED-стрічок (DW10EG-A)]]></name>
-    <name_ru><![CDATA[Комплект силиконовых окончаний COLORS для LED-лент (DW10EG-A)]]></name_ru>
-    <description><![CDATA[<p>Комплект силіконових закінчень COLORS <strong>DW10EG-A</strong></p>
-
-<ul>
-	<li>Набір прозорих силіконових заглушок для герметизації та завершення світлодіодних стрічок у силіконовій екструзії.</li>
-	<li>Забезпечує акуратне закриття торців та додатковий захист від вологи й пилу.</li>
-</ul>
-
-<p><strong>Характеристики:</strong></p>
-
-<ul>
-	<li>Сумісність: для EG екструзії FPC шириною 10 міліметрів (силіконова світлодіодна стрічка);</li>
-	<li>Комплектація: 5 шт./упаковка.</li>
-</ul>]]></description>
-    <description_ru><![CDATA[<p>Комплект силиконовых окончаний COLORS <strong>DW10EG-A</strong></p>
-
-<ul>
-	<li>Набор прозрачных силиконовых заглушек для герметизации и завершения светодиодных лент в силиконовой экструзии.</li>
-	<li>Обеспечивает аккуратное закрытие торцов и дополнительную защиту от влаги и пыли.</li>
-</ul>
-
-<p><strong>Характеристики:</strong></p>
-
-<ul>
-	<li>Совместимость: для EG экструзии FPC шириной 10 миллиметров (силиконовая светодиодная лента);</li>
-	<li>Комплектация: 5 шт./упаковка.</li>
-</ul>]]></description_ru>
-   </offer>
-   <offer available="">
     <url>https://svetodiody.com.ua/c12awa/</url>
     <price>621.6</price>
     <currencyId>UAH</currencyId>
@@ -11853,6 +11816,43 @@ NMS1217-Plus.</p>
 	<li>Количество в комплекте: 1 комплект;</li>
 	<li>Назначение: подвесной монтаж гибкого неона;</li>
 	<li>Условия эксплуатации: для внутреннего использования;</li>
+</ul>]]></description_ru>
+   </offer>
+   <offer available="true">
+    <url>https://svetodiody.com.ua/dw10eg-a/</url>
+    <price>44.4</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>1336</categoryId>
+    <picture>https://svetodiody.com.ua/content/images/9/dw10eg-a-57860407258220_+65d5b80e1f.jpg</picture>
+    <vendorCode>2936</vendorCode>
+    <vendor>COLORS</vendor>
+    <name><![CDATA[Комплект силіконових закінчень COLORS для LED-стрічок (DW10EG-A)]]></name>
+    <name_ru><![CDATA[Комплект силиконовых окончаний COLORS для LED-лент (DW10EG-A)]]></name_ru>
+    <description><![CDATA[<p>Комплект силіконових закінчень COLORS <strong>DW10EG-A</strong></p>
+
+<ul>
+	<li>Набір прозорих силіконових заглушок для герметизації та завершення світлодіодних стрічок у силіконовій екструзії.</li>
+	<li>Забезпечує акуратне закриття торців та додатковий захист від вологи й пилу.</li>
+</ul>
+
+<p><strong>Характеристики:</strong></p>
+
+<ul>
+	<li>Сумісність: для EG екструзії FPC шириною 10 міліметрів (силіконова світлодіодна стрічка);</li>
+	<li>Комплектація: 5 шт./упаковка.</li>
+</ul>]]></description>
+    <description_ru><![CDATA[<p>Комплект силиконовых окончаний COLORS <strong>DW10EG-A</strong></p>
+
+<ul>
+	<li>Набор прозрачных силиконовых заглушек для герметизации и завершения светодиодных лент в силиконовой экструзии.</li>
+	<li>Обеспечивает аккуратное закрытие торцов и дополнительную защиту от влаги и пыли.</li>
+</ul>
+
+<p><strong>Характеристики:</strong></p>
+
+<ul>
+	<li>Совместимость: для EG экструзии FPC шириной 10 миллиметров (силиконовая светодиодная лента);</li>
+	<li>Комплектация: 5 шт./упаковка.</li>
 </ul>]]></description_ru>
    </offer>
    <offer available="">
@@ -15609,6 +15609,19 @@ NMS1217-Plus.</p>
     <description_ru><![CDATA[<h2>Профиль PROLUM Силиконовый 8х4&nbsp;SERIES &laquo;PRO&raquo;</h2>]]></description_ru>
    </offer>
    <offer available="true">
+    <url>https://artled.com.ua/silicone-profil/8683/</url>
+    <price>74.52</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>1327</categoryId>
+    <picture>https://artled.com.ua/content/images/34/56995714866827_+27e3c8356a.png</picture>
+    <vendorCode>160174</vendorCode>
+    <vendor>Prolum</vendor>
+    <name><![CDATA[Профіль PROLUM Силіконовий 13х10 SERIES "PRO"]]></name>
+    <name_ru><![CDATA[Профиль PROLUM Силиконовый 13х10 SERIES «PRO»]]></name_ru>
+    <description><![CDATA[<h2>Профіль PROLUM Силіконовий 13х10 SERIES &quot;PRO&quot;</h2>]]></description>
+    <description_ru><![CDATA[<h2>Профиль PROLUM Силиконовый 13х10 SERIES &laquo;PRO&raquo;</h2>]]></description_ru>
+   </offer>
+   <offer available="true">
     <url>https://artled.com.ua/profil-prolum-sylikonovyi-16kh12-series-pro/</url>
     <price>85.56</price>
     <currencyId>UAH</currencyId>
@@ -19272,19 +19285,6 @@ NMS1217-Plus.</p>
     <vendor>PROLUM</vendor>
     <name><![CDATA[Комплект JST-роз'ємів живлення PROLUM™ - 2pin з кабелем тато + мама, чорні в подвійній ізоляції 10 см]]></name>
     <description><![CDATA[<p>Комплект JST-роз&#39;ємів живлення PROLUM&trade; - 2pin з кабелем тато + мама, чорні в подвійній ізоляції 10 см</p>]]></description>
-   </offer>
-   <offer available="">
-    <url>https://artled.com.ua/silicone-profil/8683/</url>
-    <price>74.52</price>
-    <currencyId>UAH</currencyId>
-    <categoryId>1327</categoryId>
-    <picture>https://artled.com.ua/content/images/34/56995714866827_+27e3c8356a.png</picture>
-    <vendorCode>160174</vendorCode>
-    <vendor>Prolum</vendor>
-    <name><![CDATA[Профіль PROLUM Силіконовий 13х10 SERIES "PRO"]]></name>
-    <name_ru><![CDATA[Профиль PROLUM Силиконовый 13х10 SERIES «PRO»]]></name_ru>
-    <description><![CDATA[<h2>Профіль PROLUM Силіконовий 13х10 SERIES &quot;PRO&quot;</h2>]]></description>
-    <description_ru><![CDATA[<h2>Профиль PROLUM Силиконовый 13х10 SERIES &laquo;PRO&raquo;</h2>]]></description_ru>
    </offer>
    <offer available="">
     <url>https://www.prolum.com.ua/profil-prolum-dlia-neonu-8x16-2m-chornyi/</url>
