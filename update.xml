@@ -634,7 +634,7 @@
     <currencyId>UAH</currencyId>
     <vendorCode>1258</vendorCode>
    </offer>
-   <offer available="true">
+   <offer available="">
     <price>444.0</price>
     <currencyId>UAH</currencyId>
     <vendorCode>1240</vendorCode>
@@ -11875,17 +11875,17 @@
     <vendorCode>501173</vendorCode>
    </offer>
    <offer available="true">
-    <price>745.2</price>
+    <price>717.6</price>
     <currencyId>UAH</currencyId>
     <vendorCode>211010</vendorCode>
    </offer>
    <offer available="true">
-    <price>1104.0</price>
+    <price>993.6</price>
     <currencyId>UAH</currencyId>
     <vendorCode>211011</vendorCode>
    </offer>
    <offer available="true">
-    <price>883.2</price>
+    <price>828.0</price>
     <currencyId>UAH</currencyId>
     <vendorCode>211012</vendorCode>
    </offer>
@@ -12048,11 +12048,6 @@
     <price>138.0</price>
     <currencyId>UAH</currencyId>
     <vendorCode>160170</vendorCode>
-   </offer>
-   <offer available="true">
-    <price>66.24</price>
-    <currencyId>UAH</currencyId>
-    <vendorCode>320103</vendorCode>
    </offer>
    <offer available="true">
     <price>66.24</price>
@@ -12730,6 +12725,11 @@
     <vendorCode>120069</vendorCode>
    </offer>
    <offer available="">
+    <price>248.4</price>
+    <currencyId>UAH</currencyId>
+    <vendorCode>160017</vendorCode>
+   </offer>
+   <offer available="">
     <price>496.8</price>
     <currencyId>UAH</currencyId>
     <vendorCode>120073</vendorCode>
@@ -12952,6 +12952,11 @@
    <offer available="">
     <price>66.24</price>
     <currencyId>UAH</currencyId>
+    <vendorCode>320103</vendorCode>
+   </offer>
+   <offer available="">
+    <price>66.24</price>
+    <currencyId>UAH</currencyId>
     <vendorCode>320102</vendorCode>
    </offer>
    <offer available="true">
@@ -13003,11 +13008,6 @@
     <price>245.64</price>
     <currencyId>UAH</currencyId>
     <vendorCode>120067</vendorCode>
-   </offer>
-   <offer available="true">
-    <price>248.4</price>
-    <currencyId>UAH</currencyId>
-    <vendorCode>160017</vendorCode>
    </offer>
    <offer available="true">
     <price>605.54</price>
