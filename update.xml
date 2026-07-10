@@ -5629,7 +5629,7 @@
     <currencyId>UAH</currencyId>
     <vendorCode>2646</vendorCode>
    </offer>
-   <offer available="true">
+   <offer available="">
     <price>577.2</price>
     <currencyId>UAH</currencyId>
     <vendorCode>2647</vendorCode>
