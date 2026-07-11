@@ -1354,7 +1354,7 @@
     <currencyId>UAH</currencyId>
     <vendorCode>2178</vendorCode>
    </offer>
-   <offer available="">
+   <offer available="true">
     <price>355.2</price>
     <currencyId>UAH</currencyId>
     <vendorCode>1974</vendorCode>
@@ -4974,7 +4974,7 @@
     <currencyId>UAH</currencyId>
     <vendorCode>1987</vendorCode>
    </offer>
-   <offer available="">
+   <offer available="true">
     <price>1332.0</price>
     <currencyId>UAH</currencyId>
     <vendorCode>1988</vendorCode>
@@ -6438,11 +6438,6 @@
     <price>4500.0</price>
     <currencyId>UAH</currencyId>
     <vendorCode>ALMG-TR 3M BK</vendorCode>
-   </offer>
-   <offer available="true">
-    <price>1000.0</price>
-    <currencyId>UAH</currencyId>
-    <vendorCode>Plastik70</vendorCode>
    </offer>
    <offer available="true">
     <price>100.0</price>
@@ -11680,11 +11675,6 @@
     <vendorCode>404032</vendorCode>
    </offer>
    <offer available="true">
-    <price>123.4</price>
-    <currencyId>UAH</currencyId>
-    <vendorCode>402059</vendorCode>
-   </offer>
-   <offer available="true">
     <price>201.48</price>
     <currencyId>UAH</currencyId>
     <vendorCode>120058</vendorCode>
@@ -12918,6 +12908,11 @@
     <price>579.6</price>
     <currencyId>UAH</currencyId>
     <vendorCode>404031</vendorCode>
+   </offer>
+   <offer available="">
+    <price>123.4</price>
+    <currencyId>UAH</currencyId>
+    <vendorCode>402059</vendorCode>
    </offer>
    <offer available="">
     <price>425.04</price>
