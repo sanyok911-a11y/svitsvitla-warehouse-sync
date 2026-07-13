@@ -5324,7 +5324,7 @@
     <currencyId>UAH</currencyId>
     <vendorCode>2215</vendorCode>
    </offer>
-   <offer available="">
+   <offer available="true">
     <price>1554.0</price>
     <currencyId>UAH</currencyId>
     <vendorCode>2106</vendorCode>
