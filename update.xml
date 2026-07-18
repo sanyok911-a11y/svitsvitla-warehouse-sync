@@ -1354,7 +1354,7 @@
     <currencyId>UAH</currencyId>
     <vendorCode>2178</vendorCode>
    </offer>
-   <offer available="">
+   <offer available="true">
     <price>355.2</price>
     <currencyId>UAH</currencyId>
     <vendorCode>1974</vendorCode>
@@ -1604,7 +1604,7 @@
     <currencyId>UAH</currencyId>
     <vendorCode>2312</vendorCode>
    </offer>
-   <offer available="">
+   <offer available="true">
     <price>399.6</price>
     <currencyId>UAH</currencyId>
     <vendorCode>2318</vendorCode>
@@ -2310,7 +2310,7 @@
     <vendorCode>0108</vendorCode>
    </offer>
    <offer available="true">
-    <price>1110.0</price>
+    <price>1021.2</price>
     <currencyId>UAH</currencyId>
     <vendorCode>0109</vendorCode>
    </offer>
@@ -2759,7 +2759,7 @@
     <currencyId>UAH</currencyId>
     <vendorCode>2767</vendorCode>
    </offer>
-   <offer available="">
+   <offer available="true">
     <price>532.8</price>
     <currencyId>UAH</currencyId>
     <vendorCode>2768</vendorCode>
@@ -4974,7 +4974,7 @@
     <currencyId>UAH</currencyId>
     <vendorCode>1987</vendorCode>
    </offer>
-   <offer available="">
+   <offer available="true">
     <price>1332.0</price>
     <currencyId>UAH</currencyId>
     <vendorCode>1988</vendorCode>
@@ -11305,16 +11305,6 @@
     <vendorCode>501135</vendorCode>
    </offer>
    <offer available="true">
-    <price>23.18</price>
-    <currencyId>UAH</currencyId>
-    <vendorCode>501136</vendorCode>
-   </offer>
-   <offer available="true">
-    <price>78.94</price>
-    <currencyId>UAH</currencyId>
-    <vendorCode>501138</vendorCode>
-   </offer>
-   <offer available="true">
     <price>17.11</price>
     <currencyId>UAH</currencyId>
     <vendorCode>501165</vendorCode>
@@ -11745,19 +11735,9 @@
     <vendorCode>501159</vendorCode>
    </offer>
    <offer available="true">
-    <price>492.83</price>
-    <currencyId>UAH</currencyId>
-    <vendorCode>252016</vendorCode>
-   </offer>
-   <offer available="true">
     <price>709.32</price>
     <currencyId>UAH</currencyId>
     <vendorCode>252017</vendorCode>
-   </offer>
-   <offer available="true">
-    <price>960.48</price>
-    <currencyId>UAH</currencyId>
-    <vendorCode>252018</vendorCode>
    </offer>
    <offer available="true">
     <price>480.24</price>
@@ -12870,6 +12850,11 @@
     <vendorCode>501124</vendorCode>
    </offer>
    <offer available="">
+    <price>23.18</price>
+    <currencyId>UAH</currencyId>
+    <vendorCode>501136</vendorCode>
+   </offer>
+   <offer available="">
     <price>44.71</price>
     <currencyId>UAH</currencyId>
     <vendorCode>501137</vendorCode>
@@ -13008,6 +12993,21 @@
     <price>605.54</price>
     <currencyId>UAH</currencyId>
     <vendorCode>252002</vendorCode>
+   </offer>
+   <offer available="true">
+    <price>78.94</price>
+    <currencyId>UAH</currencyId>
+    <vendorCode>501138</vendorCode>
+   </offer>
+   <offer available="true">
+    <price>492.83</price>
+    <currencyId>UAH</currencyId>
+    <vendorCode>252016</vendorCode>
+   </offer>
+   <offer available="true">
+    <price>960.48</price>
+    <currencyId>UAH</currencyId>
+    <vendorCode>252018</vendorCode>
    </offer>
    <offer available="true">
     <price>248.4</price>
