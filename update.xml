@@ -4729,7 +4729,7 @@
     <currencyId>UAH</currencyId>
     <vendorCode>1560</vendorCode>
    </offer>
-   <offer available="true">
+   <offer available="">
     <price>976.8</price>
     <currencyId>UAH</currencyId>
     <vendorCode>1561</vendorCode>
@@ -5324,7 +5324,7 @@
     <currencyId>UAH</currencyId>
     <vendorCode>2215</vendorCode>
    </offer>
-   <offer available="true">
+   <offer available="">
     <price>1554.0</price>
     <currencyId>UAH</currencyId>
     <vendorCode>2106</vendorCode>
@@ -5797,11 +5797,6 @@
    <offer available="true">
     <price>1650.0</price>
     <currencyId>UAH</currencyId>
-    <vendorCode>ALMG-M01-1 3K WH</vendorCode>
-   </offer>
-   <offer available="true">
-    <price>1650.0</price>
-    <currencyId>UAH</currencyId>
     <vendorCode>ALMG-M01-1 3K GD</vendorCode>
    </offer>
    <offer available="true">
@@ -5870,7 +5865,7 @@
     <vendorCode>ALMG-M21 3K BK</vendorCode>
    </offer>
    <offer available="true">
-    <price>1600.0</price>
+    <price>1650.0</price>
     <currencyId>UAH</currencyId>
     <vendorCode>ALMG-D300 12W 3K BK</vendorCode>
    </offer>
@@ -6240,11 +6235,6 @@
     <vendorCode>ALMG-M01-1 4K BK</vendorCode>
    </offer>
    <offer available="true">
-    <price>1650.0</price>
-    <currencyId>UAH</currencyId>
-    <vendorCode>ALMG-M01-1 4K WH</vendorCode>
-   </offer>
-   <offer available="true">
     <price>1200.0</price>
     <currencyId>UAH</currencyId>
     <vendorCode>ALMG-M07 12W 4K BK</vendorCode>
@@ -6480,11 +6470,6 @@
     <vendorCode>ALMG-ZM SNP/TRV 180</vendorCode>
    </offer>
    <offer available="true">
-    <price>40.0</price>
-    <currencyId>UAH</currencyId>
-    <vendorCode>ALMG-ZM SNP/TRV 90</vendorCode>
-   </offer>
-   <offer available="true">
     <price>300.0</price>
     <currencyId>UAH</currencyId>
     <vendorCode>ALMG-VG WH</vendorCode>
@@ -6704,7 +6689,7 @@
     <currencyId>UAH</currencyId>
     <vendorCode>1938</vendorCode>
    </offer>
-   <offer available="true">
+   <offer available="">
     <price>799.2</price>
     <currencyId>UAH</currencyId>
     <vendorCode>1936</vendorCode>
@@ -10575,11 +10560,6 @@
     <vendorCode>150005</vendorCode>
    </offer>
    <offer available="true">
-    <price>9.38</price>
-    <currencyId>UAH</currencyId>
-    <vendorCode>501080</vendorCode>
-   </offer>
-   <offer available="true">
     <price>943.92</price>
     <currencyId>UAH</currencyId>
     <vendorCode>402025</vendorCode>
@@ -11767,11 +11747,6 @@
    <offer available="true">
     <price>3.86</price>
     <currencyId>UAH</currencyId>
-    <vendorCode>502013</vendorCode>
-   </offer>
-   <offer available="true">
-    <price>3.86</price>
-    <currencyId>UAH</currencyId>
     <vendorCode>502014</vendorCode>
    </offer>
    <offer available="true">
@@ -12730,6 +12705,11 @@
     <vendorCode>120064</vendorCode>
    </offer>
    <offer available="">
+    <price>9.38</price>
+    <currencyId>UAH</currencyId>
+    <vendorCode>501080</vendorCode>
+   </offer>
+   <offer available="">
     <price>248.4</price>
     <currencyId>UAH</currencyId>
     <vendorCode>160017</vendorCode>
@@ -12913,6 +12893,11 @@
     <price>1738.8</price>
     <currencyId>UAH</currencyId>
     <vendorCode>252014</vendorCode>
+   </offer>
+   <offer available="">
+    <price>3.86</price>
+    <currencyId>UAH</currencyId>
+    <vendorCode>502013</vendorCode>
    </offer>
    <offer available="">
     <price>248.4</price>
